@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFT Skill Parser", "FFT Skill Parser\FFT Skill Parser.csproj", "{3965472B-1A54-436A-8B2D-3FCD9A95A832}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{61A927B7-9D5A-480A-8374-70F717893E6F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		gitignore.txt = gitignore.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3965472B-1A54-436A-8B2D-3FCD9A95A832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3965472B-1A54-436A-8B2D-3FCD9A95A832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3965472B-1A54-436A-8B2D-3FCD9A95A832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3965472B-1A54-436A-8B2D-3FCD9A95A832}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F63B6FB2-1AC9-400C-8F70-56AA522B3B16}
+	EndGlobalSection
+EndGlobal

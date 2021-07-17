@@ -1,0 +1,14 @@
+[Potion] -   30
+[Hi-Potion] -  200
+[X-Potion] -  300
+[Ether] -  300
+[Hi-Ether] -  400
+[Elixir] -  900
+[Antidote] -   70
+[Eye Drop] -   80
+[Echo Grass] -  120
+[Maiden's Kiss] -  200
+[Soft] -  250
+[Holy Water] -  400
+[Remedy] -  700                       
+[Phoenix Down]-   90
