@@ -1,0 +1,478 @@
+PSEUDO-SUPPORT ABILITIES:  These reaction abilities act more like support
+abilities, in that they do not depend on Brave, nor do they require a specific 
+trigger to activate -- essentially, they are always active if set.  These are
+good choices for low-Brave units.
+
+    [Abandon] - 400 JP, Ninja  
+    This ability doubles all inherent, shield, accessory, and weapon evade 
+    percentages.  That is, instead of (1 - Ev), each evasion stat contributes a
+    multiplier of (1 - 2*Ev) to the success percent equation for evadable 
+    attacks.
+
+    [Weapon Guard] - 200 JP, Knight
+    This ability enables your weapon evasion (WEv).
+
+DAMAGE-TRIGGERED ABILTIES:  These abilities are triggered if you receive
+HP damage (including 0 damage) from any OTHER unit.  They will trigger 
+(Brave)% of the time.
+
+    [A Save] - 550 JP, Dancer
+    Your PA increases by 1.
+
+    [Auto Potion] - 400 JP, Chemist
+    Use a Potion (recovers 30 HP). If you have no Potions in stock, use a 
+    Hi-Potion (recovers 70 HP). If you have no Hi-Potions in stock, use an 
+    X-Potion (recovers 150 HP). If you have none of these potions in stock, 
+    the ability has no effect.
+
+    [Caution] - 200 JP, Thief
+    You gain Defending status. This will expire on your next active turn.
+     
+    [Damage Split] - 300 JP, Calculator
+    The unit that damaged you will take RU{damage / 2} damage and you will 
+    recover RU{damage / 2} HP. (Will only trigger if damage > 0.)
+
+    [Gilgame Heart] - 200 JP, Thief
+    Steal (Damage * 10) gil from the enemy, where Damage is the amount of 
+    damage that was just done to you.
+
+    [MA Save] - 450 JP, Bard)
+    Your MA increases by 1.
+
+    [Regenerator] - 400 JP, Priest
+    You gain Regen status. Like standard Regen, this will expire in 32
+    clockticks.
+
+    [Speed Save] - 800 JP, Archer
+    Your Speed increases by 1.
+
+COUNTERGRASP:  So called from the two most popular reaction abilities of
+this class, Counter and Blade Grasp, these attacks will be triggered by
+any of the physical attacks listed below. The attack does not have to
+succeed or cause damage in order for the reaction ability to activate.
+Like most reaction abilities, these will activate Br% of the time.
+
+           ------------LIST OF COUNTERGRASP ACTIVATORS-------------
+          |========================================================|
+          |  ATTACK*           Eye Gouge         Beaking           |
+          |  JUMP              Scratch           Shine Lover       |
+          |  THROW             Poison Nail       Straight Dash     |
+          |  CHARGE            Blood Suck**      Bite              |
+          |  BATTLE SKILL      Tentacle (squid)  Shake Off         |
+          |  Steal Helmet      Knife Hand        Wave Around       |
+          |  Steal Armor       Sleep Touch       Tentacle (morbol) |
+          |  Steal Weapon      Grease Touch      Goo               |
+          |  Steal Accessry    Drain Touch       Stab Up           |
+          |  Steal Shield      Zombie Touch      Sudden Cry        |
+          |  Gil Taking        Snake Carrier     Dash (dragon)     |
+          |  Choco Attack      Wing Attack       Tail Swing        |
+          |  Tackle            Scratch Up        Triple Attack     |
+          |  Goblin Punch      Beak                                |
+          |                                                        |
+          |  * Countergrasp reactions (except Blade Grasp) do not  |
+          |    work against ATTACKs with magic guns                |
+          |  ** Vampire version of 'Blood Suck' only!              |
+           --------------------------------------------------------
+
+    [Blade Grasp] - 700 JP, Samurai  
+    This ability makes the base hit percentage for Countergrasp 
+    activators executed against you equal to (Base - YourBr) instead of 
+    Base, where Base is the success rate of the attack before evasion
+    is considered.  Unlike the other Countergrasp reaction abilities, 
+    Blade Grasp DOES work against magic guns.  Blade Grasp can only 
+    activate once per attack, so it will at most block one of the two 
+    hits from a Two Swords attack.  Blade Grasp is NOT considered to 
+    be evasion, and its effects stack with those of evasion. See 
+    section 6.6 for details.
+
+    [Brave Up] - 500 JP, Dancer
+    Your Br is increased by 3.
+
+    [Counter] - 300 JP, Monk
+    If the unit which attacked you is within range of your equipped 
+    weapon, you will counter with an ATTACK directive. The Counter-ATTACK
+    can't trigger reactions (except pseudo-supports), which means it can't
+    be blocked by Blade Grasp.
+
+    [Counter Tackle] - 180 JP, Squire
+    If the unit that attacked you is within range of 'Dash', you will 
+    counter with 'Dash'.
+
+    [Dragon Spirit] - 560 JP, Lancer  
+    You gain Reraise status, unless you already have Reraise or are immune 
+    to Reraise.
+
+    [Sunken State] - 900 JP, Ninja 
+    You gain Transparent status, unless you are immune to Transparent.
+
+ABILITIES ACTIVATED WHEN IN CRITICAL STATUS:  These abilities will 
+activate Br% of the time if you receive HP damage (including 0 damage)
+from ANOTHER unit and are in Critical status after that damage 
+resolves. It doesn't matter whether you were Critical before the damage 
+was dealt.
+
+    [Critical Quick] - 700 JP, Time Mage
+    You gain Quick status -- specifically, you are tagged with a critical 
+    quick-flag.  This ability can be used to set up 'The Quickening', 
+    which allows your units to get infinite turns.  See Shinmen Takazo's 
+    excellent Quickening FAQ on gamefaqs.com for details.
+
+    [HP Restore] - 500 JP, Monk
+    Restore (your MaxHP - your CurrentHP) HP. (In other words,
+    restore your HP to maximum.)
+
+    [Meatbone Slash] - 200 JP, Samurai
+    If the attacker is within range of your weapon, you will counter
+    with 'Meatbone Slash', a neutral MOD 0 attack that deals damage 
+    equal to your Max HP.
+
+    [MP Restore] - 400 JP, Summoner
+    Restore (your MaxMP - your CurrentMP) MP. (In other words,
+    restore your MP to maximum.)
+
+OTHER REACTION ABILITIES:  These don't fit in any category.
+
+    [Absorb Used MP] - 250 JP, Oracle 
+    Whenever another unit uses an ability that costs MP, and you are 
+    one of the targets, you have a Br% chance of gaining the amount 
+    of MP that the other unit consumed.
+
+    [Arrow Guard] - 450 JP, Archer  
+    This is like Blade Grasp, but it only works on bow and crossbow 
+    attacks (this includes ATTACK, CHARGE, BATTLE SKILL, and SNIPE, 
+    with bow or crossbow equipped).  See 'Blade Grasp'.
+
+    [Catch] - 200 JP, Thief  
+    If you are targeted with a THROW attack, you will catch the 
+    item and add it to your inventory Br% of the time. The message 
+    'Caught' will be displayed in red upon a successful Catch.  
+    Mimed THROW attacks cannot be Caught (I guess this is because no 
+    'real' item is consumed for a mimed THROW).
+
+    [Counter Flood] - 300 JP, Geomancer  
+    If you are targeted by a Counter Flood-enabled attack (Check 
+    the big list (section 3.3) to see if an attack is Counter Flood-
+    enabled. For the most part, these are Countergraspable attacks 
+    that also cause damage, plus ELEMENTAL attacks and some other 
+    oddballs), you will counter with an ELEMENTAL directive 
+    corresponding to the ground you are currently standing on, 
+    regardless of your assailant's distance from you and regardless of 
+    whether you have actually learned that ability. The ELEMENTAL 
+    directive will have its usual effect area, so if one of your units 
+    happens to be standing next to the target of Counter Flood and is 
+    on the same height, (s)he'll be damaged too!  Like most reactions, 
+    Counter Flood will activate Br% of the time.
+
+    [Counter Magic] - 800 JP, Wizard 
+    If you are targeted by a magic gun or a spell that is subject to 
+    Counter Magic (see the big list in section 3.3), you will cast that 
+    spell back at the caster, paying the appropriate MP cost.  This 
+    will activate Br% of the time and only if you have sufficient MP
+    to cast the spell.
+
+    [Distribute] - 200 JP, Calculator  
+    If you are healed by another unit (this ability does NOT activate if 
+    you are healing yourself!), every allied unit that does not have full 
+    HP will gain RU{(gained_HP - (maxHP - curHP)) / N}, where gained_HP 
+    is the magnitude of the triggering HP gain, maxHP is your maximum HP, 
+    curHP was your current HP before the HP gain, and N is the number of 
+    allied units that do not have full HP. (In other words, any excess 
+    healing will be split equally (round up) among all other party 
+    members that are not at full HP.  Note that only one unit's healing 
+    will be shown in the animation, but all units that do not have full
+    HP will be healed.)  This ability will activate Br% of the time.
+
+    [Face Up] - 500 JP, Bard  
+    If you are targeted by any Faith-based magical attack, this 
+    ability will increase your Faith by 3. It works Br% of the time.
+
+    [Finger Guard] - 300 JP, Mediator  
+    Base success percentage of TALK SKILL attacks executed against 
+    you is now equal to (Base% - YourBr%).
+       
+    [Hamedo] - 1200 JP, Monk  
+    If you are targeted by an ATTACK, BATTLE SKILL, THROW, or CHARGE 
+    directive and your attacker is within range of your weapon, the 
+    attacker's directive will be cancelled and you will instead 
+    execute an ATTACK directive on the attacker.  The Hamedo-ATTACK
+    cannot trigger reactions (except for pseudo-supports).  Note that 
+    this only works on the above-listed commands, which means it is 
+    useless on monsters, since they have special forms of physical 
+    attack. (And even though Berserk units can only ATTACK, Hamedo
+    still doesn't work on Berserked monsters.) This ability will 
+    trigger Br% of the time.  Note: unlike Counter, Hamedo will
+    activate against spell guns.
+
+    [MP Switch] - 400 JP, Time Mage  
+    If you receive HP damage and your CurMP > 0, the damage will 
+    instead be dealt to your MP Br% of the time.  This works on 
+    almost _any_ source of damage, including Poison, falling damage,
+    and self-inflicted damage.  It does not, however, work on damage 
+    incurred by other reaction abilities like Hamedo, Counter, and 
+    Meatbone Slash.
+
+    [Reflect] - 200 JP, GameShark only  
+    This has no effect.
+
+
+_______________________________________________________________________________
+[4.2] support abilities
+      =========================================================================
+
+Unlike most reaction abilities, support abilities are always active while 
+they are equipped.
+
+[Attack UP] - 400 JP, Geomancer  
+For physical attacks except JUMP and some others (see 3.3), the effective 
+value of your relevant stat XA = [XA * 4/3].  Usually, XA is PA, but it 
+can sometimes be MA (as in a stick ATTACK), Speed (as in a STEAL directive),
+or a complex expression like [(PA + MA) / 2] (as in a dictionary ATTACK).  
+Check the list in section 3.3 to see whether an attack is physical. 
+
+[Concentrate] - 400 JP, Archer  
+Targets cannot evade your physical attacks via their evasion percentages 
+(P.CEV, P.SEV, P.AEV, W-EV).  Note that this does not guarantee 100% success 
+on attacks such as BATTLE SKILL, since these attacks can still MISS.  Targets 
+may also still evade using the 'Blade Grasp' and 'Arrow Guard' abilities.
+Concentrate has no effect on magic evasion.
+
+[Defend] - 50 JP, Squire  
+Adds the DEFEND command (add: Defending on the caster) to your action menu.
+
+[Defense UP] - 400 JP, Oracle 
+For physical attacks except JUMP and some others (see 3.3), units attacking 
+you receive a penalty to their relevant stat XA such that XA = [XA * 2/3].
+Usually, stat XA is PA, but it can sometimes be MA (as in a stick ATTACK), 
+Speed (as in THROW), WP (as in a gun ATTACK), or a complex expression like
+[(PA + MA) / 2] (as in a dictionary ATTACK). Check the list in section 3.3 
+to see whether an attack is physical.
+
+[Equip Armor] - 500 JP, Knight  
+You can equip armor and helmets regardless of your current job.
+
+[Equip Axe] - 200 JP, Squire
+You can equip axes regardless of your current job.
+
+[Equip Change] - 0 JP, Chemist
+Adds the EQUIP CHANGE command to your action menu.  This allows you to 
+change your equipment in battle.  Using EQUIP CHANGE counts as an
+action.
+  
+[Equip Crossbow] - 350 JP, Archer
+You can equip crossbows regardless of your current job.
+
+[Equip Gun] - 750 JP, Mediator
+You can equip guns (both regular and magical) regardless of your 
+current job.
+
+[Equip Knife] - 400 JP, Samurai
+You can equip katana regardless of your current job.
+
+[Equip Shield] - 250 JP, Knight
+You can equip shields regardless of your current job.
+
+[Equip Spear] - 400 JP, Lancer
+You can equip spears regardless of your current job.
+
+[Equip Sword] - 400 JP, Knight
+You can equip swords (but not knight swords) regardless of your 
+current job.
+
+[Gained Exp-UP] - 350 JP, Calculator
+When you receive experience for an action, you receive bonus experience 
+such that received Exp = earned Exp * 2.
+
+[Gained JP-UP] - 200 JP, Squire
+When you receive JP for an action, you receive bonus JP such that received
+JP = [earned JP * 3/2].
+
+[Half of MP] - 900 JP, Summoner
+Any MP-using ability costs you half as many MP to use (round up). 
+(HalfMPCost = RU{MPCost / 2})
+
+[Magic AttackUP] - 400 JP, Wizard  
+For magical attacks, the effective value of your MA = [MA * 4/3].  
+This does not include physical attacks (such as stick and staff ATTACK) 
+that use MA as their relevant stat. Check the list in section 3.3 to see 
+whether an attack is magical. 
+
+[Magic DefendUP] - 400 JP, Priest  
+For magical attacks targeting you, the effective value of the caster's 
+MA = [MA * 2/3].  This does not include physical attacks (such as stick and
+staff ATTACK) which use MA as their relevant stat. Check the list in section
+3.3 to see whether an attack is magical. 
+ 
+[Maintenance] - 250 JP, Chemist
+Your equipment cannot be stolen or broken.  Any attack that steals or 
+breaks equipment will have a 0% success rate if targeted against you.
+
+[Martial Arts] - 200 JP, Monk
+Your effective XA for all physical attacks except JUMP and THROW is equal 
+to [XA * 3/2].  If you are not barehanded, those physical attacks that 
+are weapon-elemental (ATTACK, CHARGE, BATTLE SKILL, SNIPE, sword skills) 
+will not receive the bonus.
+
+[Monster Skill] - 200 JP, Squire
+Monsters standing on squares adjacent to you will have access to a new 
+skill (vertical tolerance 3).  This will have no effect if you are
+Berserk, Confused, or Unable to Fight.
+
+[Monster Talk] - 100 JP, Mediator
+Enables you to target TALK SKILL on monsters, regardless of your job.
+
+[Non-charge] - 3000 JP, GameShark only
+All slow actions, except for JUMP, CHARGE, SING, and DANCE, become fast 
+actions.
+
+[Secret Hunt] - 200 JP, Thief
+If you kill a monster with damage from your weapon (i.e., through ATTACK, 
+CHARGE or Counter), you will poach it; that is, it will be transformed 
+into an item that you can buy at one of the Fur Shops located around Ivalice.
+Items bought at the Fur Shop will be half their normal price! Also, you can
+sell any item to the Fur Shop to raise some quick cash, and then later buy 
+it back for the same amount you sold it for!
+
+[Short Charge] - 800 JP, Time Mage
+For all slow actions except for JUMP, CHARGE, SING and DANCE, 
+ctr = RU{ctr/2}.
+
+[Throw Item] - 350 JP, Chemist 
+Range of ITEM becomes 4/1 (line of sight), regardless of your current job.
+
+[Train] - 450 JP, Mediator  
+If you strike a monster directly with your weapon (e,g., through ATTACK, 
+CHARGE, or Counter), and that monster is Critical after the attack 
+resolves, you will also add: Invite to that same monster.
+
+[Two Hands] - 900 JP, Samurai
+You are able to grip one-handed weapons with both hands, doubling 
+weapon power (does not apply to non-striking weapons like guns and 
+crossbows).  Weapon power is doubled for the ATTACK command only and 
+does not affect other physical attacks -- even those that employ weapons 
+such as JUMP, BATTLE SKILL, HOLY SWORD, DARK SWORD and MIGHTY SWORD. 
+(It does apply, however, to the ATTACK that results from targetting a 
+BATTLE SKILL on a piece of equipment that the target does not have.)
+
+[Two Swords] - 900 JP, Ninja  
+You are able to equip two one-handed weapons at once.  This has some 
+interesting upshots -- for instance, all BATTLE SKILL, CHARGE, and 
+SNIPE directives are executed twice if you are carrying two weapons.
+In addition, if you attack a target that has Blade Grasp set, 
+Blade Grasp can only block one of the two hits that you incur.  If
+the first hit of a Two Sworded attack fails to connect for any 
+reason (evade, Blade Grasp, or inherent inaccuracy of the attack), 
+then the target will turn to face the attacker prior to the second 
+hit, and the second hit will be treated as if it were executed 
+from the front (i.e., all possible evade parameters will be 
+considered).
+
+
+_______________________________________________________________________________
+[4.3] movement abilities
+      =========================================================================
+
+Movement abilities allow you to move about the battlefield more easily, or
+activate special powers when you move.
+
+[Any Ground] - 220 JP, Geomancer 
+Normally each square of flowing water you walk through costs you two movement 
+points instead of one.  With this ability, the movement penalty to walk through
+flowing water vanishes.
+
+[Any Weather] - 200 JP, Oracle
+Normally, you can walk over marsh sqaures without suffering the water penalty.
+However, if it is raining heavily in a marshland, you will face a similar 
+penalty -- you must use two movement points for every square of marsh you 
+move over.  If you have Any Weather equipped, that penalty will not take 
+effect.  In addition, weather effects on magic (increase in Lightning damage 
+and decrease in Fire damage during thunderstorms) are nullified if the caster
+has Any Weather.  This is in a heated battle with Move on Lava for the title
+of 'most useless ability'. And another curiosity:  the programmers gave the 
+Steel Giant class Any Ground and Any Weather inherent, but they also gave 
+it Cannot enter water inherent, making Any Ground and Any Weather completely
+useless! Maybe they intended to program more weather and terrain effects 
+into the game but never got around to it.
+
+[Cannot enter water] - 200 JP, inherent for several monsters)
+You cannot move or stop on squares that are submerged in water.
+
+[Float] - 540 JP, Time Mage 
+You float 1h above the ground. This has the same effect as the Float status,
+except that it allows you to stop on lava squares (the Float status only 
+allows you to move, not stop, over lava).
+
+[Fly] - 1200 JP, Bard and Dancer
+Allows you to fly over all height differences, enemies, and obstacles.
+Nullifies fall damage.
+
+[Ignore Height] - 700 JP, Lancer
+You are able to jump to any vertical height, regardless of your 'Jump' 
+stat.  This has no effect on the Lancer's JUMP command.
+
+[Jump +1] - 200 JP, Archer
+'Jump' stat + 1.  This has no effect on the Lancer's JUMP command.
+
+[Jump +2] - 480 JP, Thief  
+'Jump' stat + 2.  This has no effect on the Lancer's JUMP command.
+
+[Jump +3] - 1000 JP, Dancer
+'Jump' stat + 3.  This has no effect on the Lancer's JUMP command.
+
+[Move +1] - 200 JP, Squire
+'Move' stat + 1.
+
+[Move +2] - 520 JP, Thief
+'Move' stat + 2.
+
+[Move +3] - 1000 JP, Bard
+'Move' stat + 3.
+
+[Move in Water] - 420 JP, Ninja
+You can move (and stop) on top of water; water is treated like 
+normal ground.
+
+[Move on Lava] - 150 JP, Geomancer
+You can move (and stop) on top of lava; lava is treated like 
+normal ground.
+
+[Move Undrwater] - 200 JP, inherent for Mindflayer type monsters 
+You can move (and stop) in water up to 3h deep without penalty. 
+
+[Move-Find Item] - 100 JP, Chemist
+You can extract hidden items from booby-trapped squares without
+triggering the traps. Each square has two items: the odds of getting
+one (usually the commoner item) are Br%, and the odds of getting the
+other (usually the rarer item) are (100 - Br)%.
+
+[Move-Get Exp] - 400 JP, Calculator
+You gain 1 Exp. per panel moved, unless you are afflicted with 
+Berserk, Confusion, or Blood Suck status.
+
+[Move-Get JP] - 360 JP, Calculator
+You gain 2 JP per panel moved, unless you are afflicted with 
+Berserk, Confusion, or Blood Suck status.
+
+[Move-HP Up] - 300 JP, Monk
+Recover RU{MaxHP / 10} HP if you move at least one panel, unless 
+you are afflicted with Berserk, Confusion, or Blood Suck status.
+
+[Move-MP Up] - 350 JP, Oracle
+Recover RU{MaxMP / 10} MP if you move at least one panel, unless 
+you are afflicted with Berserk, Confusion, or Blood Suck status.
+
+[Silent Walk] - 700 JP, GameShark only
+No known effect.
+
+[Teleport] - 600 JP, Time Mage
+Able to teleport through obstacles, height differences, units, etc.  
+Chance of success is 100% within your Move range and decreases 10% 
+per extra square you move.  See section 6.7 for details.
+
+[Teleport 2] - 0 JP, inherent for Arch Angel, Holy Angel 
+Teleport anywhere on the battlefield with 100% success.
+
+[Walk on Water] - 300 JP, Samurai
+Ignore water depth; all water is treated like it is 1h deep, 
+regardless of actual depth. (Doesn't it seem like this should be
+called Move in Water, and Move in Water should be called 
+Walk on Water?)
