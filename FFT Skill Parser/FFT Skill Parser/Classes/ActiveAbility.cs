@@ -5,6 +5,14 @@ using System.Text;
 
 namespace FFT_Skill_Parser.Classes
 {
+    public enum SpecialJobOptions
+    {
+        Item = 0,
+        Charge = 1,
+        Jump = 2,
+        Guts = 3
+    }
+
     class ActiveAbility : Ability
     {
         /*
@@ -45,15 +53,103 @@ namespace FFT_Skill_Parser.Classes
         public bool Effect_Linear { get; set; }
         public bool LineOfSight { get; set; }
         //public int BMG_Number { get; set; }
-        public bool IsItemSpecial { get; set; }
+        public SpecialJobOptions SpecialConsiderationType { get; set; }
 
-        public ActiveAbility(string chemistData, bool? chemist) : base (chemistData, true)
+        public static ActiveAbility MakeItem(string chemistData)
         {
-            LineOfSight = true;
-            Range_Horizontal = 4;
-            Effect_Horizontal = 1;
-            IsItemSpecial = true;
+            return new ActiveAbility(chemistData, null)
+            {
+                LineOfSight = true,
+                Range_Horizontal = 4,
+                Effect_Horizontal = 1,
+                SpecialConsiderationType = SpecialJobOptions.Guts,
+            };
         }
+
+        public static IEnumerable<ActiveAbility> GetCharges()
+        {
+            return new[] { 1, 2, 3, 4, 5, 7, 10, 20 }
+            .Select(c => MakeCharge(c));
+        }
+
+        public static IEnumerable<ActiveAbility> GetJumps()
+        {            
+            return new [] {
+                (2 , false, 150),
+                (3 , false, 300),
+                (4 , false, 450),
+                (5 , false, 600),
+                (8 , false, 900),
+
+                (2 , true, 100),
+                (3 , true, 200),
+                (4 , true, 300),
+                (5 , true, 400),
+                (6 , true, 500),
+                (7 , true, 600),
+                (8 , true, 900)
+            }.Select(j => MakeJump(j.Item1, j.Item2, j.Item3));
+        }
+
+        private static ActiveAbility MakeCharge(int number)
+        {
+            return new ActiveAbility
+            {
+                Job = "Archer",
+                Name = $"Charge +{number}",                
+                Range_Weapon = true,
+                Effect_Horizontal = 1,
+                Type = "neutral",
+                CounterFlood = true,
+                CounterGrasp = true,
+                SpecialConsiderationType = SpecialJobOptions.Charge,
+                ChargeTicks = number switch
+                {
+                    1 => 4,
+                    2 => 5,
+                    3 => 6,
+                    4 => 8,
+                    5 => 10,
+                    7 => 14,
+                    10 => 20,
+                    20 => 35,
+                    _ => throw new NotImplementedException("Invalid value")
+                },
+                JP = number switch
+                {
+                    1 => 100,
+                    2 => 150,
+                    3 => 200,
+                    4 => 250,
+                    5 => 300,
+                    7 => 400,
+                    10 => 600,
+                    20 => 1000,
+                    _ => throw new NotImplementedException("Invalid value")
+                }
+            };
+        }
+
+        private static ActiveAbility MakeJump(int number, bool vertical, int jp)
+        {
+            var name = vertical ? "Vertical" : "Level";
+            return new ActiveAbility
+            {
+                Job = "Lancer",
+                Name = $"{name} Jump{number}",
+                JP = jp,
+                Range_Vertical = vertical ? number : (int?)null,
+                Range_Horizontal = vertical ? (int?)null : number,
+                Effect_Horizontal = 1,
+                ChargeTicks = 0,
+                Type = "neutral",
+                CounterFlood = true,
+                CounterGrasp = true
+            };
+        }
+
+        private ActiveAbility() { }
+        private ActiveAbility(string standardRow, object? emptyConstructorArg) : base (standardRow, true) { }
 
         public ActiveAbility(string dataBlob)
         {
@@ -196,6 +292,9 @@ namespace FFT_Skill_Parser.Classes
                 "GUTS" => "Squire*",
                 _ => throw new NotImplementedException("Parse error")
             };
+
+            if (skillGroup.ToUpper() == "GUTS")
+                SpecialConsiderationType = SpecialJobOptions.Guts; 
         }
     }
 }

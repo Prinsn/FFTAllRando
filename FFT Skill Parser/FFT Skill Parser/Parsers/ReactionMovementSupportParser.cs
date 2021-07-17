@@ -23,24 +23,18 @@ namespace FFT_Skill_Parser
             var reactions = splitReactionAndNot[0];
             var purePassives = splitReactionAndNot[1];
 
-
-            var pseudoStr = "PSEUDO-SUPPORT ABILITIES:";
-            var pseudoPos = reactions.IndexOf(pseudoStr);
-            var damageStr = "DAMAGE-TRIGGERED ABILTIES:";
-            var damagePos = reactions.IndexOf(damageStr);
-            var counterGraspStr = "COUNTERGRASP:";
-            var counterGraspPos = reactions.IndexOf(counterGraspStr);
-            var criticalStr = "ABILITIES ACTIVATED WHEN IN CRITICAL STATUS:";
-            var criticalPos = reactions.IndexOf(criticalStr);
-            var otherStr = "OTHER REACTION ABILITIES:";
-            var otherPos = reactions.IndexOf(otherStr);
+            var pseudoPos = reactions.IndexOf("PSEUDO-SUPPORT ABILITIES:");
+            var damagePos = reactions.IndexOf("DAMAGE-TRIGGERED ABILTIES:");            
+            var counterGraspPos = reactions.IndexOf("COUNTERGRASP:");
+            var criticalPos = reactions.IndexOf("ABILITIES ACTIVATED WHEN IN CRITICAL STATUS:");
+            var otherPos = reactions.IndexOf("OTHER REACTION ABILITIES:");            
 
             var typeSorter = new[] {
-                (pseudoPos, ReactionGroup.pseudo),
-                (damagePos, ReactionGroup.damage_trigger),
-                (counterGraspPos, ReactionGroup.counter_grasp),
-                (criticalPos, ReactionGroup.critical_status),
-                (otherPos, ReactionGroup.other),
+                (pseudoPos, SupportType.reaction_pseudo),
+                (damagePos, SupportType.reaction_damage_trigger),
+                (counterGraspPos, SupportType.reaction_counter_grasp),
+                (criticalPos, SupportType.reaction_critical_status),
+                (otherPos, SupportType.reaction_other),
             }.Reverse().ToArray();
 
             IEnumerable<string> getPassiveDefinitionRows(string source){
@@ -55,19 +49,32 @@ namespace FFT_Skill_Parser
 
             foreach (var reaction in getPassiveDefinitionRows(reactions))
             {                
-                var row = reaction.Substring(0);
                 var type = typeSorter.First(z => z.Item1 < reactions.IndexOf(reaction)).Item2;
-                passives.Add(new ReactionAbility(row, type));
+                passives.Add(new SupportAbility(reaction, type));
             }
-            
+
+
+            var supportPos = purePassives.IndexOf("[4.2] support abilities");
+            var movementPos = purePassives.IndexOf("[4.3] movement abilities");
+
+            typeSorter = new[]
+            {
+                (supportPos, SupportType.support),
+                (movementPos, SupportType.movement)
+            };
+
             foreach (var passive in getPassiveDefinitionRows(purePassives))
-            {                
-                var row = passive.Substring(0);                
-                passives.Add(new Ability(row, false));
+            {
+                if (passive.ToUpper().Contains("GAMESHARK"))
+                    continue;
+
+                var type = typeSorter.First(z => z.Item1 < purePassives.IndexOf(passive)).Item2;
+                passives.Add(new SupportAbility(passive, type));
             }
 
             File.WriteAllText(path + "\\passive.json", JsonSerializer.Serialize(passives, new JsonSerializerOptions
             {
+                Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
                 WriteIndented = true
             }));
         }

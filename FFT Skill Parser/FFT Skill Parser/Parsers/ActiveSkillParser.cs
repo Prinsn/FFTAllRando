@@ -25,11 +25,15 @@ namespace FFT_Skill_Parser
             var itemFile = File.ReadAllText(Path.Join(path, itemFileName).ToString());
             foreach(var row in itemFile.Split(Environment.NewLine))
             {
-                actives.Add(new ActiveAbility(row, true));
+                actives.Add(ActiveAbility.MakeItem(row));
             }
+
+            actives.AddRange(ActiveAbility.GetJumps());
+            actives.AddRange(ActiveAbility.GetCharges());
             
             File.WriteAllText(path + "\\active.json", JsonSerializer.Serialize(actives, new JsonSerializerOptions
             {
+                Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
                 WriteIndented = true
             }));
         }

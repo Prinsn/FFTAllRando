@@ -1,705 +1,494 @@
 [
   {
-    "ReactionType": "pseudo",
+    "ReactionType": "reaction_pseudo",
     "Name": "Abandon",
-    "PspName": null,
     "Job": "Ninja",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
-    "ReactionType": "pseudo",
+    "ReactionType": "reaction_pseudo",
     "Name": "Weapon Guard",
-    "PspName": null,
     "Job": "Knight",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
-    "ReactionType": "damage_trigger",
+    "ReactionType": "reaction_damage_trigger",
     "Name": "A Save",
-    "PspName": null,
     "Job": "Dancer",
-    "PspJob": null,
-    "JP": 550,
-    "PspJp": null
+    "JP": 550
   },
   {
-    "ReactionType": "damage_trigger",
+    "ReactionType": "reaction_damage_trigger",
     "Name": "Auto Potion",
-    "PspName": null,
     "Job": "Chemist",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
-    "ReactionType": "damage_trigger",
+    "ReactionType": "reaction_damage_trigger",
     "Name": "Caution",
-    "PspName": null,
     "Job": "Thief",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
-    "ReactionType": "damage_trigger",
+    "ReactionType": "reaction_damage_trigger",
     "Name": "Damage Split",
-    "PspName": null,
     "Job": "Calculator",
-    "PspJob": null,
-    "JP": 300,
-    "PspJp": null
+    "JP": 300
   },
   {
-    "ReactionType": "damage_trigger",
+    "ReactionType": "reaction_damage_trigger",
     "Name": "Gilgame Heart",
-    "PspName": null,
     "Job": "Thief",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
-    "ReactionType": "damage_trigger",
+    "ReactionType": "reaction_damage_trigger",
     "Name": "MA Save",
-    "PspName": null,
     "Job": "Bard)",
-    "PspJob": null,
-    "JP": 450,
-    "PspJp": null
+    "JP": 450
   },
   {
-    "ReactionType": "damage_trigger",
+    "ReactionType": "reaction_damage_trigger",
     "Name": "Regenerator",
-    "PspName": null,
     "Job": "Priest",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
-    "ReactionType": "damage_trigger",
+    "ReactionType": "reaction_damage_trigger",
     "Name": "Speed Save",
-    "PspName": null,
     "Job": "Archer",
-    "PspJob": null,
-    "JP": 800,
-    "PspJp": null
+    "JP": 800
   },
   {
-    "ReactionType": "counter_grasp",
+    "ReactionType": "reaction_counter_grasp",
     "Name": "Blade Grasp",
-    "PspName": null,
     "Job": "Samurai",
-    "PspJob": null,
-    "JP": 700,
-    "PspJp": null
+    "JP": 700
   },
   {
-    "ReactionType": "counter_grasp",
+    "ReactionType": "reaction_counter_grasp",
     "Name": "Brave Up",
-    "PspName": null,
     "Job": "Dancer",
-    "PspJob": null,
-    "JP": 500,
-    "PspJp": null
+    "JP": 500
   },
   {
-    "ReactionType": "counter_grasp",
+    "ReactionType": "reaction_counter_grasp",
     "Name": "Counter",
-    "PspName": null,
     "Job": "Monk",
-    "PspJob": null,
-    "JP": 300,
-    "PspJp": null
+    "JP": 300
   },
   {
-    "ReactionType": "counter_grasp",
+    "ReactionType": "reaction_counter_grasp",
     "Name": "Counter Tackle",
-    "PspName": null,
     "Job": "Squire",
-    "PspJob": null,
-    "JP": 180,
-    "PspJp": null
+    "JP": 180
   },
   {
-    "ReactionType": "counter_grasp",
+    "ReactionType": "reaction_counter_grasp",
     "Name": "Dragon Spirit",
-    "PspName": null,
     "Job": "Lancer",
-    "PspJob": null,
-    "JP": 560,
-    "PspJp": null
+    "JP": 560
   },
   {
-    "ReactionType": "counter_grasp",
+    "ReactionType": "reaction_counter_grasp",
     "Name": "Sunken State",
-    "PspName": null,
     "Job": "Ninja",
-    "PspJob": null,
-    "JP": 900,
-    "PspJp": null
+    "JP": 900
   },
   {
-    "ReactionType": "critical_status",
+    "ReactionType": "reaction_critical_status",
     "Name": "Critical Quick",
-    "PspName": null,
     "Job": "Time Mage",
-    "PspJob": null,
-    "JP": 700,
-    "PspJp": null
+    "JP": 700
   },
   {
-    "ReactionType": "critical_status",
+    "ReactionType": "reaction_critical_status",
     "Name": "HP Restore",
-    "PspName": null,
     "Job": "Monk",
-    "PspJob": null,
-    "JP": 500,
-    "PspJp": null
+    "JP": 500
   },
   {
-    "ReactionType": "critical_status",
+    "ReactionType": "reaction_critical_status",
     "Name": "Meatbone Slash",
-    "PspName": null,
     "Job": "Samurai",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
-    "ReactionType": "critical_status",
+    "ReactionType": "reaction_critical_status",
     "Name": "MP Restore",
-    "PspName": null,
     "Job": "Summoner",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
-    "ReactionType": "other",
+    "ReactionType": "reaction_other",
     "Name": "Absorb Used MP",
-    "PspName": null,
     "Job": "Oracle",
-    "PspJob": null,
-    "JP": 250,
-    "PspJp": null
+    "JP": 250
   },
   {
-    "ReactionType": "other",
+    "ReactionType": "reaction_other",
     "Name": "Arrow Guard",
-    "PspName": null,
     "Job": "Archer",
-    "PspJob": null,
-    "JP": 450,
-    "PspJp": null
+    "JP": 450
   },
   {
-    "ReactionType": "other",
+    "ReactionType": "reaction_other",
     "Name": "Catch",
-    "PspName": null,
     "Job": "Thief",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
-    "ReactionType": "other",
+    "ReactionType": "reaction_other",
     "Name": "Counter Flood",
-    "PspName": null,
     "Job": "Geomancer",
-    "PspJob": null,
-    "JP": 300,
-    "PspJp": null
+    "JP": 300
   },
   {
-    "ReactionType": "other",
+    "ReactionType": "reaction_other",
     "Name": "Counter Magic",
-    "PspName": null,
     "Job": "Wizard",
-    "PspJob": null,
-    "JP": 800,
-    "PspJp": null
+    "JP": 800
   },
   {
-    "ReactionType": "other",
+    "ReactionType": "reaction_other",
     "Name": "Distribute",
-    "PspName": null,
     "Job": "Calculator",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
-    "ReactionType": "other",
+    "ReactionType": "reaction_other",
     "Name": "Face Up",
-    "PspName": null,
     "Job": "Bard",
-    "PspJob": null,
-    "JP": 500,
-    "PspJp": null
+    "JP": 500
   },
   {
-    "ReactionType": "other",
+    "ReactionType": "reaction_other",
     "Name": "Finger Guard",
-    "PspName": null,
     "Job": "Mediator",
-    "PspJob": null,
-    "JP": 300,
-    "PspJp": null
+    "JP": 300
   },
   {
-    "ReactionType": "other",
+    "ReactionType": "reaction_other",
     "Name": "Hamedo",
-    "PspName": null,
     "Job": "Monk",
-    "PspJob": null,
-    "JP": 1200,
-    "PspJp": null
+    "JP": 1200
   },
   {
-    "ReactionType": "other",
+    "ReactionType": "reaction_other",
     "Name": "MP Switch",
-    "PspName": null,
     "Job": "Time Mage",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
-    "ReactionType": "other",
+    "ReactionType": "reaction_other",
     "Name": "Reflect",
-    "PspName": null,
     "Job": "GameShark only",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
+    "ReactionType": "support",
     "Name": "Attack UP",
-    "PspName": null,
     "Job": "Geomancer",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
+    "ReactionType": "support",
     "Name": "Concentrate",
-    "PspName": null,
     "Job": "Archer",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
+    "ReactionType": "support",
     "Name": "Defend",
-    "PspName": null,
     "Job": "Squire",
-    "PspJob": null,
-    "JP": 50,
-    "PspJp": null
+    "JP": 50
   },
   {
+    "ReactionType": "support",
     "Name": "Defense UP",
-    "PspName": null,
     "Job": "Oracle",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
+    "ReactionType": "support",
     "Name": "Equip Armor",
-    "PspName": null,
     "Job": "Knight",
-    "PspJob": null,
-    "JP": 500,
-    "PspJp": null
+    "JP": 500
   },
   {
+    "ReactionType": "support",
     "Name": "Equip Axe",
-    "PspName": null,
     "Job": "Squire",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
+    "ReactionType": "support",
     "Name": "Equip Change",
-    "PspName": null,
     "Job": "Chemist",
-    "PspJob": null,
-    "JP": 0,
-    "PspJp": null
+    "JP": 0
   },
   {
+    "ReactionType": "support",
     "Name": "Equip Crossbow",
-    "PspName": null,
     "Job": "Archer",
-    "PspJob": null,
-    "JP": 350,
-    "PspJp": null
+    "JP": 350
   },
   {
+    "ReactionType": "support",
     "Name": "Equip Gun",
-    "PspName": null,
     "Job": "Mediator",
-    "PspJob": null,
-    "JP": 750,
-    "PspJp": null
+    "JP": 750
   },
   {
+    "ReactionType": "support",
     "Name": "Equip Knife",
-    "PspName": null,
     "Job": "Samurai",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
+    "ReactionType": "support",
     "Name": "Equip Shield",
-    "PspName": null,
     "Job": "Knight",
-    "PspJob": null,
-    "JP": 250,
-    "PspJp": null
+    "JP": 250
   },
   {
+    "ReactionType": "support",
     "Name": "Equip Spear",
-    "PspName": null,
     "Job": "Lancer",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
+    "ReactionType": "support",
     "Name": "Equip Sword",
-    "PspName": null,
     "Job": "Knight",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
+    "ReactionType": "support",
     "Name": "Gained Exp-UP",
-    "PspName": null,
     "Job": "Calculator",
-    "PspJob": null,
-    "JP": 350,
-    "PspJp": null
+    "JP": 350
   },
   {
+    "ReactionType": "support",
     "Name": "Gained JP-UP",
-    "PspName": null,
     "Job": "Squire",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
+    "ReactionType": "support",
     "Name": "Half of MP",
-    "PspName": null,
     "Job": "Summoner",
-    "PspJob": null,
-    "JP": 900,
-    "PspJp": null
+    "JP": 900
   },
   {
+    "ReactionType": "support",
     "Name": "Magic AttackUP",
-    "PspName": null,
     "Job": "Wizard",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
+    "ReactionType": "support",
     "Name": "Magic DefendUP",
-    "PspName": null,
     "Job": "Priest",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
+    "ReactionType": "support",
     "Name": "Maintenance",
-    "PspName": null,
     "Job": "Chemist",
-    "PspJob": null,
-    "JP": 250,
-    "PspJp": null
+    "JP": 250
   },
   {
+    "ReactionType": "support",
     "Name": "Martial Arts",
-    "PspName": null,
     "Job": "Monk",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
+    "ReactionType": "support",
     "Name": "Monster Skill",
-    "PspName": null,
     "Job": "Squire",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
+    "ReactionType": "support",
     "Name": "Monster Talk",
-    "PspName": null,
     "Job": "Mediator",
-    "PspJob": null,
-    "JP": 100,
-    "PspJp": null
+    "JP": 100
   },
   {
-    "Name": "Non-charge",
-    "PspName": null,
-    "Job": "GameShark only",
-    "PspJob": null,
-    "JP": 3000,
-    "PspJp": null
-  },
-  {
+    "ReactionType": "support",
     "Name": "Secret Hunt",
-    "PspName": null,
     "Job": "Thief",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
+    "ReactionType": "support",
     "Name": "Short Charge",
-    "PspName": null,
     "Job": "Time Mage",
-    "PspJob": null,
-    "JP": 800,
-    "PspJp": null
+    "JP": 800
   },
   {
+    "ReactionType": "support",
     "Name": "Throw Item",
-    "PspName": null,
     "Job": "Chemist",
-    "PspJob": null,
-    "JP": 350,
-    "PspJp": null
+    "JP": 350
   },
   {
+    "ReactionType": "support",
     "Name": "Train",
-    "PspName": null,
     "Job": "Mediator",
-    "PspJob": null,
-    "JP": 450,
-    "PspJp": null
+    "JP": 450
   },
   {
+    "ReactionType": "support",
     "Name": "Two Hands",
-    "PspName": null,
     "Job": "Samurai",
-    "PspJob": null,
-    "JP": 900,
-    "PspJp": null
+    "JP": 900
   },
   {
+    "ReactionType": "support",
     "Name": "Two Swords",
-    "PspName": null,
     "Job": "Ninja",
-    "PspJob": null,
-    "JP": 900,
-    "PspJp": null
+    "JP": 900
   },
   {
+    "ReactionType": "support",
     "Name": "Any Ground",
-    "PspName": null,
     "Job": "Geomancer",
-    "PspJob": null,
-    "JP": 220,
-    "PspJp": null
+    "JP": 220
   },
   {
+    "ReactionType": "support",
     "Name": "Any Weather",
-    "PspName": null,
     "Job": "Oracle",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
+    "ReactionType": "support",
     "Name": "Cannot enter water",
-    "PspName": null,
     "Job": "inherent for several monsters)",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
+    "ReactionType": "support",
     "Name": "Float",
-    "PspName": null,
     "Job": "Time Mage",
-    "PspJob": null,
-    "JP": 540,
-    "PspJp": null
+    "JP": 540
   },
   {
+    "ReactionType": "support",
     "Name": "Fly",
-    "PspName": null,
     "Job": "Bard and Dancer",
-    "PspJob": null,
-    "JP": 1200,
-    "PspJp": null
+    "JP": 1200
   },
   {
+    "ReactionType": "support",
     "Name": "Ignore Height",
-    "PspName": null,
     "Job": "Lancer",
-    "PspJob": null,
-    "JP": 700,
-    "PspJp": null
+    "JP": 700
   },
   {
-    "Name": "Jump \u002B1",
-    "PspName": null,
+    "ReactionType": "support",
+    "Name": "Jump +1",
     "Job": "Archer",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
-    "Name": "Jump \u002B2",
-    "PspName": null,
+    "ReactionType": "support",
+    "Name": "Jump +2",
     "Job": "Thief",
-    "PspJob": null,
-    "JP": 480,
-    "PspJp": null
+    "JP": 480
   },
   {
-    "Name": "Jump \u002B3",
-    "PspName": null,
+    "ReactionType": "support",
+    "Name": "Jump +3",
     "Job": "Dancer",
-    "PspJob": null,
-    "JP": 1000,
-    "PspJp": null
+    "JP": 1000
   },
   {
-    "Name": "Move \u002B1",
-    "PspName": null,
+    "ReactionType": "support",
+    "Name": "Move +1",
     "Job": "Squire",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
-    "Name": "Move \u002B2",
-    "PspName": null,
+    "ReactionType": "support",
+    "Name": "Move +2",
     "Job": "Thief",
-    "PspJob": null,
-    "JP": 520,
-    "PspJp": null
+    "JP": 520
   },
   {
-    "Name": "Move \u002B3",
-    "PspName": null,
+    "ReactionType": "support",
+    "Name": "Move +3",
     "Job": "Bard",
-    "PspJob": null,
-    "JP": 1000,
-    "PspJp": null
+    "JP": 1000
   },
   {
+    "ReactionType": "support",
     "Name": "Move in Water",
-    "PspName": null,
     "Job": "Ninja",
-    "PspJob": null,
-    "JP": 420,
-    "PspJp": null
+    "JP": 420
   },
   {
+    "ReactionType": "support",
     "Name": "Move on Lava",
-    "PspName": null,
     "Job": "Geomancer",
-    "PspJob": null,
-    "JP": 150,
-    "PspJp": null
+    "JP": 150
   },
   {
+    "ReactionType": "support",
     "Name": "Move Undrwater",
-    "PspName": null,
     "Job": "inherent for Mindflayer type monsters",
-    "PspJob": null,
-    "JP": 200,
-    "PspJp": null
+    "JP": 200
   },
   {
+    "ReactionType": "support",
     "Name": "Move-Find Item",
-    "PspName": null,
     "Job": "Chemist",
-    "PspJob": null,
-    "JP": 100,
-    "PspJp": null
+    "JP": 100
   },
   {
+    "ReactionType": "support",
     "Name": "Move-Get Exp",
-    "PspName": null,
     "Job": "Calculator",
-    "PspJob": null,
-    "JP": 400,
-    "PspJp": null
+    "JP": 400
   },
   {
+    "ReactionType": "support",
     "Name": "Move-Get JP",
-    "PspName": null,
     "Job": "Calculator",
-    "PspJob": null,
-    "JP": 360,
-    "PspJp": null
+    "JP": 360
   },
   {
+    "ReactionType": "support",
     "Name": "Move-HP Up",
-    "PspName": null,
     "Job": "Monk",
-    "PspJob": null,
-    "JP": 300,
-    "PspJp": null
+    "JP": 300
   },
   {
+    "ReactionType": "support",
     "Name": "Move-MP Up",
-    "PspName": null,
     "Job": "Oracle",
-    "PspJob": null,
-    "JP": 350,
-    "PspJp": null
+    "JP": 350
   },
   {
-    "Name": "Silent Walk",
-    "PspName": null,
-    "Job": "GameShark only",
-    "PspJob": null,
-    "JP": 700,
-    "PspJp": null
-  },
-  {
+    "ReactionType": "support",
     "Name": "Teleport",
-    "PspName": null,
     "Job": "Time Mage",
-    "PspJob": null,
-    "JP": 600,
-    "PspJp": null
+    "JP": 600
   },
   {
+    "ReactionType": "support",
     "Name": "Teleport 2",
-    "PspName": null,
     "Job": "inherent for Arch Angel",
-    "PspJob": null,
-    "JP": 0,
-    "PspJp": null
+    "JP": 0
   },
   {
+    "ReactionType": "support",
     "Name": "Walk on Water",
-    "PspName": null,
     "Job": "Samurai",
-    "PspJob": null,
-    "JP": 300,
-    "PspJp": null
+    "JP": 300
   }
 ]
