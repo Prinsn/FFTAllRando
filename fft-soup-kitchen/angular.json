@@ -121,8 +121,13 @@
               "devServerTarget": "fft-soup-kitchen:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "fft-soup-kitchen"
 }
