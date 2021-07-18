@@ -54,14 +54,14 @@ namespace FFT_Skill_Parser
             }
 
 
-            var supportPos = purePassives.IndexOf("[4.2] support abilities");
+            var supportPos = purePassives.IndexOf("Unlike most reaction abilities, support abilities are always active while ");
             var movementPos = purePassives.IndexOf("[4.3] movement abilities");
 
             typeSorter = new[]
             {
                 (supportPos, SupportType.support),
                 (movementPos, SupportType.movement)
-            };
+            }.Reverse().ToArray();
 
             foreach (var passive in getPassiveDefinitionRows(purePassives))
             {

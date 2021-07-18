@@ -22,6 +22,7 @@ namespace FFT_Skill_Parser
             {
                 directory = directory.Parent;
             }
+
             return directory;
         }
     }

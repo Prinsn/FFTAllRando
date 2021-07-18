@@ -354,139 +354,139 @@
     "JP": 900
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Any Ground",
     "Job": "Geomancer",
     "JP": 220
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Any Weather",
     "Job": "Oracle",
     "JP": 200
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Cannot enter water",
     "Job": "inherent for several monsters)",
     "JP": 200
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Float",
     "Job": "Time Mage",
     "JP": 540
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Fly",
     "Job": "Bard and Dancer",
     "JP": 1200
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Ignore Height",
     "Job": "Lancer",
     "JP": 700
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Jump +1",
     "Job": "Archer",
     "JP": 200
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Jump +2",
     "Job": "Thief",
     "JP": 480
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Jump +3",
     "Job": "Dancer",
     "JP": 1000
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Move +1",
     "Job": "Squire",
     "JP": 200
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Move +2",
     "Job": "Thief",
     "JP": 520
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Move +3",
     "Job": "Bard",
     "JP": 1000
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Move in Water",
     "Job": "Ninja",
     "JP": 420
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Move on Lava",
     "Job": "Geomancer",
     "JP": 150
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Move Undrwater",
     "Job": "inherent for Mindflayer type monsters",
     "JP": 200
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Move-Find Item",
     "Job": "Chemist",
     "JP": 100
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Move-Get Exp",
     "Job": "Calculator",
     "JP": 400
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Move-Get JP",
     "Job": "Calculator",
     "JP": 360
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Move-HP Up",
     "Job": "Monk",
     "JP": 300
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Move-MP Up",
     "Job": "Oracle",
     "JP": 350
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Teleport",
     "Job": "Time Mage",
     "JP": 600
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Teleport 2",
     "Job": "inherent for Arch Angel",
     "JP": 0
   },
   {
-    "ReactionType": "support",
+    "ReactionType": "movement",
     "Name": "Walk on Water",
     "Job": "Samurai",
     "JP": 300
