@@ -44,7 +44,7 @@
   {
     "ReactionType": "reaction_damage_trigger",
     "Name": "MA Save",
-    "Job": "Bard)",
+    "Job": "Bard",
     "JP": 450
   },
   {
@@ -367,12 +367,6 @@
   },
   {
     "ReactionType": "movement",
-    "Name": "Cannot enter water",
-    "Job": "inherent for several monsters)",
-    "JP": 200
-  },
-  {
-    "ReactionType": "movement",
     "Name": "Float",
     "Job": "Time Mage",
     "JP": 540
@@ -439,12 +433,6 @@
   },
   {
     "ReactionType": "movement",
-    "Name": "Move Undrwater",
-    "Job": "inherent for Mindflayer type monsters",
-    "JP": 200
-  },
-  {
-    "ReactionType": "movement",
     "Name": "Move-Find Item",
     "Job": "Chemist",
     "JP": 100
@@ -478,12 +466,6 @@
     "Name": "Teleport",
     "Job": "Time Mage",
     "JP": 600
-  },
-  {
-    "ReactionType": "movement",
-    "Name": "Teleport 2",
-    "Job": "inherent for Arch Angel",
-    "JP": 0
   },
   {
     "ReactionType": "movement",

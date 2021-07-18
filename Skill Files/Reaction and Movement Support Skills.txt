@@ -36,7 +36,7 @@ HP damage (including 0 damage) from any OTHER unit.  They will trigger
     Steal (Damage * 10) gil from the enemy, where Damage is the amount of 
     damage that was just done to you.
 
-    [MA Save] - 450 JP, Bard)
+    [MA Save] - 450 JP, Bard
     Your MA increases by 1.
 
     [Regenerator] - 400 JP, Priest

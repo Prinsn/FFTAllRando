@@ -65,7 +65,8 @@ namespace FFT_Skill_Parser
 
             foreach (var passive in getPassiveDefinitionRows(purePassives))
             {
-                if (passive.ToUpper().Contains("GAMESHARK"))
+                var upper = passive.ToUpper();
+                if (upper.Contains("GAMESHARK") || upper.Contains("INHERENT"))
                     continue;
 
                 var type = typeSorter.First(z => z.Item1 < purePassives.IndexOf(passive)).Item2;
