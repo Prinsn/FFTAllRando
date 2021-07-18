@@ -48,7 +48,11 @@ namespace FFT_Skill_Parser
             }
 
             foreach (var reaction in getPassiveDefinitionRows(reactions))
-            {                
+            {
+                var upper = reaction.ToUpper();
+                if (upper.Contains("GAMESHARK") || upper.Contains("INHERENT"))
+                    continue;
+
                 var type = typeSorter.First(z => z.Item1 < reactions.IndexOf(reaction)).Item2;
                 passives.Add(new SupportAbility(reaction, type));
             }

@@ -180,12 +180,6 @@
     "JP": 400
   },
   {
-    "ReactionType": "reaction_other",
-    "Name": "Reflect",
-    "Job": "GameShark only",
-    "JP": 200
-  },
-  {
     "ReactionType": "support",
     "Name": "Attack UP",
     "Job": "Geomancer",
