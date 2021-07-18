@@ -30,7 +30,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Cure",
     "Job": "Priest",
-    "JP": null
+    "JP": 50
   },
   {
     "Type": "magical",
@@ -63,7 +63,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Cure 2",
     "Job": "Priest",
-    "JP": null
+    "JP": 180
   },
   {
     "Type": "magical",
@@ -96,7 +96,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Cure 3",
     "Job": "Priest",
-    "JP": null
+    "JP": 400
   },
   {
     "Type": "magical",
@@ -129,7 +129,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Cure 4",
     "Job": "Priest",
-    "JP": null
+    "JP": 700
   },
   {
     "Type": "magical",
@@ -162,7 +162,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Raise",
     "Job": "Priest",
-    "JP": null
+    "JP": 180
   },
   {
     "Type": "magical",
@@ -195,7 +195,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Raise 2",
     "Job": "Priest",
-    "JP": null
+    "JP": 500
   },
   {
     "Type": "magical",
@@ -228,7 +228,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Reraise",
     "Job": "Priest",
-    "JP": null
+    "JP": 800
   },
   {
     "Type": "magical",
@@ -261,7 +261,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Regen",
     "Job": "Priest",
-    "JP": null
+    "JP": 300
   },
   {
     "Type": "magical",
@@ -294,7 +294,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Protect",
     "Job": "Priest",
-    "JP": null
+    "JP": 70
   },
   {
     "Type": "magical",
@@ -327,7 +327,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Protect 2",
     "Job": "Priest",
-    "JP": null
+    "JP": 500
   },
   {
     "Type": "magical",
@@ -360,7 +360,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Shell",
     "Job": "Priest",
-    "JP": null
+    "JP": 70
   },
   {
     "Type": "magical",
@@ -393,7 +393,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Shell 2",
     "Job": "Priest",
-    "JP": null
+    "JP": 500
   },
   {
     "Type": "magical",
@@ -426,7 +426,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Wall",
     "Job": "Priest",
-    "JP": null
+    "JP": 380
   },
   {
     "Type": "magical",
@@ -459,7 +459,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Esuna",
     "Job": "Priest",
-    "JP": null
+    "JP": 280
   },
   {
     "Type": "magical",
@@ -492,7 +492,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Holy",
     "Job": "Priest",
-    "JP": null
+    "JP": 600
   },
   {
     "Type": "magical",
@@ -525,7 +525,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Fire",
     "Job": "Wizard",
-    "JP": null
+    "JP": 50
   },
   {
     "Type": "magical",
@@ -558,7 +558,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Fire 2",
     "Job": "Wizard",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "magical",
@@ -591,7 +591,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Fire 3",
     "Job": "Wizard",
-    "JP": null
+    "JP": 480
   },
   {
     "Type": "magical",
@@ -624,7 +624,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Fire 4",
     "Job": "Wizard",
-    "JP": null
+    "JP": 850
   },
   {
     "Type": "magical",
@@ -657,7 +657,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Bolt",
     "Job": "Wizard",
-    "JP": null
+    "JP": 50
   },
   {
     "Type": "magical",
@@ -690,7 +690,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Bolt 2",
     "Job": "Wizard",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "magical",
@@ -723,7 +723,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Bolt 3",
     "Job": "Wizard",
-    "JP": null
+    "JP": 480
   },
   {
     "Type": "magical",
@@ -756,7 +756,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Bolt 4",
     "Job": "Wizard",
-    "JP": null
+    "JP": 850
   },
   {
     "Type": "magical",
@@ -789,7 +789,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Ice",
     "Job": "Wizard",
-    "JP": null
+    "JP": 50
   },
   {
     "Type": "magical",
@@ -822,7 +822,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Ice 2",
     "Job": "Wizard",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "magical",
@@ -855,7 +855,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Ice 3",
     "Job": "Wizard",
-    "JP": null
+    "JP": 480
   },
   {
     "Type": "magical",
@@ -888,7 +888,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Ice 4",
     "Job": "Wizard",
-    "JP": null
+    "JP": 850
   },
   {
     "Type": "magical",
@@ -921,7 +921,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Poison",
     "Job": "Wizard",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "magical",
@@ -954,7 +954,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Frog",
     "Job": "Wizard",
-    "JP": null
+    "JP": 500
   },
   {
     "Type": "magical",
@@ -987,7 +987,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Death",
     "Job": "Wizard",
-    "JP": null
+    "JP": 600
   },
   {
     "Type": "magical",
@@ -1020,7 +1020,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Flare",
     "Job": "Wizard",
-    "JP": null
+    "JP": 900
   },
   {
     "Type": "magical",
@@ -1053,7 +1053,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Haste",
     "Job": "Time Mage",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "magical",
@@ -1086,7 +1086,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Haste 2",
     "Job": "Time Mage",
-    "JP": null
+    "JP": 550
   },
   {
     "Type": "magical",
@@ -1119,7 +1119,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Slow",
     "Job": "Time Mage",
-    "JP": null
+    "JP": 80
   },
   {
     "Type": "magical",
@@ -1152,7 +1152,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Slow 2",
     "Job": "Time Mage",
-    "JP": null
+    "JP": 520
   },
   {
     "Type": "magical",
@@ -1185,7 +1185,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Stop",
     "Job": "Time Mage",
-    "JP": null
+    "JP": 330
   },
   {
     "Type": "magical",
@@ -1218,7 +1218,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Don't Move",
     "Job": "Time Mage",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "magical",
@@ -1251,7 +1251,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Float",
     "Job": "Time Mage",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "magical",
@@ -1284,7 +1284,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Reflect",
     "Job": "Time Mage",
-    "JP": null
+    "JP": 330
   },
   {
     "Type": "magical",
@@ -1317,7 +1317,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Quick",
     "Job": "Time Mage",
-    "JP": null
+    "JP": 800
   },
   {
     "Type": "magical",
@@ -1350,7 +1350,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Demi",
     "Job": "Time Mage",
-    "JP": null
+    "JP": 250
   },
   {
     "Type": "magical",
@@ -1383,7 +1383,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Demi 2",
     "Job": "Time Mage",
-    "JP": null
+    "JP": 550
   },
   {
     "Type": "magical",
@@ -1416,7 +1416,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Meteor",
     "Job": "Time Mage",
-    "JP": null
+    "JP": 1500
   },
   {
     "Type": "magical",
@@ -1449,7 +1449,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Blind",
     "Job": "Oracle",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "magical",
@@ -1482,7 +1482,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Spell Absorb",
     "Job": "Oracle",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "magical",
@@ -1515,7 +1515,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Life Drain",
     "Job": "Oracle",
-    "JP": null
+    "JP": 350
   },
   {
     "Type": "magical",
@@ -1548,7 +1548,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Pray Faith",
     "Job": "Oracle",
-    "JP": null
+    "JP": 400
   },
   {
     "Type": "magical",
@@ -1581,7 +1581,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Doubt Faith",
     "Job": "Oracle",
-    "JP": null
+    "JP": 400
   },
   {
     "Type": "magical",
@@ -1614,7 +1614,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Zombie",
     "Job": "Oracle",
-    "JP": null
+    "JP": 300
   },
   {
     "Type": "magical",
@@ -1647,7 +1647,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Silence Song",
     "Job": "Oracle",
-    "JP": null
+    "JP": 170
   },
   {
     "Type": "magical",
@@ -1680,7 +1680,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Blind Rage",
     "Job": "Oracle",
-    "JP": null
+    "JP": 400
   },
   {
     "Type": "magical",
@@ -1713,7 +1713,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Foxbird",
     "Job": "Oracle",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "magical",
@@ -1746,7 +1746,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Confusion Song",
     "Job": "Oracle",
-    "JP": null
+    "JP": 400
   },
   {
     "Type": "magical",
@@ -1779,7 +1779,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Dispel Magic",
     "Job": "Oracle",
-    "JP": null
+    "JP": 700
   },
   {
     "Type": "magical",
@@ -1812,7 +1812,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Paralyze",
     "Job": "Oracle",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "magical",
@@ -1845,7 +1845,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Sleep",
     "Job": "Oracle",
-    "JP": null
+    "JP": 350
   },
   {
     "Type": "magical",
@@ -1878,7 +1878,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Petrify",
     "Job": "Oracle",
-    "JP": null
+    "JP": 580
   },
   {
     "Type": "magical",
@@ -1911,7 +1911,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Moogle",
     "Job": "Summoner",
-    "JP": null
+    "JP": 110
   },
   {
     "Type": "magical",
@@ -1944,7 +1944,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Shiva",
     "Job": "Summoner",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "magical",
@@ -1977,7 +1977,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Ramuh",
     "Job": "Summoner",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "magical",
@@ -2010,7 +2010,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Ifrit",
     "Job": "Summoner",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "magical",
@@ -2043,7 +2043,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Titan",
     "Job": "Summoner",
-    "JP": null
+    "JP": 220
   },
   {
     "Type": "magical",
@@ -2076,7 +2076,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Golem",
     "Job": "Summoner",
-    "JP": null
+    "JP": 500
   },
   {
     "Type": "magical",
@@ -2109,7 +2109,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Carbunkle",
     "Job": "Summoner",
-    "JP": null
+    "JP": 350
   },
   {
     "Type": "magical",
@@ -2142,7 +2142,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Bahamut",
     "Job": "Summoner",
-    "JP": null
+    "JP": 1200
   },
   {
     "Type": "magical",
@@ -2175,7 +2175,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Odin",
     "Job": "Summoner",
-    "JP": null
+    "JP": 900
   },
   {
     "Type": "magical",
@@ -2208,7 +2208,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Leviathan",
     "Job": "Summoner",
-    "JP": null
+    "JP": 850
   },
   {
     "Type": "magical",
@@ -2241,7 +2241,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Salamander",
     "Job": "Summoner",
-    "JP": null
+    "JP": 820
   },
   {
     "Type": "magical",
@@ -2274,7 +2274,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Silf",
     "Job": "Summoner",
-    "JP": null
+    "JP": 400
   },
   {
     "Type": "magical",
@@ -2307,7 +2307,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Fairy",
     "Job": "Summoner",
-    "JP": null
+    "JP": 400
   },
   {
     "Type": "magical",
@@ -2340,7 +2340,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Lich",
     "Job": "Summoner",
-    "JP": null
+    "JP": 600
   },
   {
     "Type": "magical",
@@ -2373,7 +2373,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Cyclops",
     "Job": "Summoner",
-    "JP": null
+    "JP": 1000
   },
   {
     "Type": "magical",
@@ -2439,7 +2439,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Asura",
     "Job": "Samurai",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "magical",
@@ -2472,7 +2472,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Koutetsu",
     "Job": "Samurai",
-    "JP": null
+    "JP": 180
   },
   {
     "Type": "magical",
@@ -2505,7 +2505,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Bizen Boat",
     "Job": "Samurai",
-    "JP": null
+    "JP": 260
   },
   {
     "Type": "neutral",
@@ -2538,7 +2538,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Murasame",
     "Job": "Samurai",
-    "JP": null
+    "JP": 340
   },
   {
     "Type": "magical",
@@ -2571,7 +2571,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Heaven's Cloud",
     "Job": "Samurai",
-    "JP": null
+    "JP": 420
   },
   {
     "Type": "neutral",
@@ -2604,7 +2604,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Kiyomori",
     "Job": "Samurai",
-    "JP": null
+    "JP": 500
   },
   {
     "Type": "magical",
@@ -2637,7 +2637,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Muramasa",
     "Job": "Samurai",
-    "JP": null
+    "JP": 580
   },
   {
     "Type": "magical",
@@ -2670,7 +2670,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Kikuichimoji",
     "Job": "Samurai",
-    "JP": null
+    "JP": 660
   },
   {
     "Type": "neutral",
@@ -2703,7 +2703,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Masamune",
     "Job": "Samurai",
-    "JP": null
+    "JP": 740
   },
   {
     "Type": "magical",
@@ -2736,7 +2736,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Chirijiraden",
     "Job": "Samurai",
-    "JP": null
+    "JP": 820
   },
   {
     "Type": "neutral",
@@ -2769,7 +2769,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Angel Song",
     "Job": "Bard",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -2802,7 +2802,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Life Song",
     "Job": "Bard",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -2835,7 +2835,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Cheer Song",
     "Job": "Bard",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -2868,7 +2868,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Battle Song",
     "Job": "Bard",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -2901,7 +2901,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Magic Song",
     "Job": "Bard",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -2934,7 +2934,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Nameless Song",
     "Job": "Bard",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -2967,7 +2967,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Last Song",
     "Job": "Bard",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -3000,7 +3000,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Witch Hunt",
     "Job": "Dancer",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -3033,7 +3033,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Wiznaibus",
     "Job": "Dancer",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -3066,7 +3066,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Slow Dance",
     "Job": "Dancer",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -3099,7 +3099,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Polka Polka",
     "Job": "Dancer",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -3132,7 +3132,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Disillusion",
     "Job": "Dancer",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -3165,7 +3165,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Nameless Dance",
     "Job": "Dancer",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -3198,7 +3198,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Last Dance",
     "Job": "Dancer",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "physica",
@@ -3231,7 +3231,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Spin Fist",
     "Job": "Monk",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "physica",
@@ -3264,7 +3264,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Repeating Fist",
     "Job": "Monk",
-    "JP": null
+    "JP": 300
   },
   {
     "Type": "physica",
@@ -3297,7 +3297,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Wave Fist",
     "Job": "Monk",
-    "JP": null
+    "JP": 300
   },
   {
     "Type": "physica",
@@ -3330,7 +3330,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Earth Slash",
     "Job": "Monk",
-    "JP": null
+    "JP": 600
   },
   {
     "Type": "physica",
@@ -3363,7 +3363,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Secret Fist",
     "Job": "Monk",
-    "JP": null
+    "JP": 300
   },
   {
     "Type": "physica",
@@ -3396,7 +3396,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Stigma Magic",
     "Job": "Monk",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "physica",
@@ -3429,7 +3429,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Chakra",
     "Job": "Monk",
-    "JP": null
+    "JP": 350
   },
   {
     "Type": "physica",
@@ -3462,7 +3462,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Revive",
     "Job": "Monk",
-    "JP": null
+    "JP": 500
   },
   {
     "Type": "physica",
@@ -3495,7 +3495,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Gil Taking",
     "Job": "Thief",
-    "JP": null
+    "JP": 10
   },
   {
     "Type": "neutral",
@@ -3528,7 +3528,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Steal Heart",
     "Job": "Thief",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "physica",
@@ -3561,7 +3561,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Steal Helmet",
     "Job": "Thief",
-    "JP": null
+    "JP": 350
   },
   {
     "Type": "physica",
@@ -3594,7 +3594,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Steal Armor",
     "Job": "Thief",
-    "JP": null
+    "JP": 450
   },
   {
     "Type": "physica",
@@ -3627,7 +3627,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Steal Shield",
     "Job": "Thief",
-    "JP": null
+    "JP": 350
   },
   {
     "Type": "physica",
@@ -3660,7 +3660,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Steal Weapon",
     "Job": "Thief",
-    "JP": null
+    "JP": 600
   },
   {
     "Type": "physica",
@@ -3693,7 +3693,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Steal Accessry",
     "Job": "Thief",
-    "JP": null
+    "JP": 500
   },
   {
     "Type": "physica",
@@ -3726,7 +3726,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Steal Exp.",
     "Job": "Thief",
-    "JP": null
+    "JP": 250
   },
   {
     "Type": "neutral",
@@ -3759,7 +3759,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Invitation",
     "Job": "Mediator",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -3792,7 +3792,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Persuade",
     "Job": "Mediator",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -3825,7 +3825,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Praise",
     "Job": "Mediator",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "neutral",
@@ -3858,7 +3858,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Threaten",
     "Job": "Mediator",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "neutral",
@@ -3891,7 +3891,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Preach",
     "Job": "Mediator",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "neutral",
@@ -3924,7 +3924,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Solution",
     "Job": "Mediator",
-    "JP": null
+    "JP": 200
   },
   {
     "Type": "neutral",
@@ -3957,7 +3957,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Death Sentence",
     "Job": "Mediator",
-    "JP": null
+    "JP": 500
   },
   {
     "Type": "neutral",
@@ -3990,7 +3990,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Negotiate",
     "Job": "Mediator",
-    "JP": null
+    "JP": 100
   },
   {
     "Type": "neutral",
@@ -4023,7 +4023,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Insult",
     "Job": "Mediator",
-    "JP": null
+    "JP": 300
   },
   {
     "Type": "neutral",
@@ -4056,7 +4056,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Mimic Daravon",
     "Job": "Mediator",
-    "JP": null
+    "JP": 300
   },
   {
     "Type": "magical",
@@ -4089,7 +4089,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Pitfall",
     "Job": "Geomancer",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "magical",
@@ -4122,7 +4122,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Water Ball",
     "Job": "Geomancer",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "magical",
@@ -4155,7 +4155,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Hell Ivy",
     "Job": "Geomancer",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "magical",
@@ -4188,7 +4188,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Carve Model",
     "Job": "Geomancer",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "magical",
@@ -4221,7 +4221,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Local Quake",
     "Job": "Geomancer",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "magical",
@@ -4254,7 +4254,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Kamaitachi",
     "Job": "Geomancer",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "magical",
@@ -4287,7 +4287,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Demon Fire",
     "Job": "Geomancer",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "magical",
@@ -4320,7 +4320,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Quicksand",
     "Job": "Geomancer",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "magical",
@@ -4353,7 +4353,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Blizzard",
     "Job": "Geomancer",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "magical",
@@ -4386,7 +4386,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Gusty Wind",
     "Job": "Geomancer",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "magical",
@@ -4419,7 +4419,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Lava Ball",
     "Job": "Geomancer",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "physica",
@@ -4452,7 +4452,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Head Break",
     "Job": "Knight",
-    "JP": null
+    "JP": 300
   },
   {
     "Type": "physica",
@@ -4485,7 +4485,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Armor Break",
     "Job": "Knight",
-    "JP": null
+    "JP": 400
   },
   {
     "Type": "physica",
@@ -4518,7 +4518,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Shield Break",
     "Job": "Knight",
-    "JP": null
+    "JP": 300
   },
   {
     "Type": "physica",
@@ -4551,7 +4551,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Weapon Break",
     "Job": "Knight",
-    "JP": null
+    "JP": 400
   },
   {
     "Type": "physica",
@@ -4584,7 +4584,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Magic Break",
     "Job": "Knight",
-    "JP": null
+    "JP": 250
   },
   {
     "Type": "physica",
@@ -4617,7 +4617,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Speed Break",
     "Job": "Knight",
-    "JP": null
+    "JP": 250
   },
   {
     "Type": "physica",
@@ -4650,7 +4650,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Power Break",
     "Job": "Knight",
-    "JP": null
+    "JP": 250
   },
   {
     "Type": "physica",
@@ -4683,7 +4683,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Mind Break",
     "Job": "Knight",
-    "JP": null
+    "JP": 250
   },
   {
     "Type": "neutral",
@@ -4716,7 +4716,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Accumulate",
     "Job": "Squire",
-    "JP": null
+    "JP": 300
   },
   {
     "Type": "physica",
@@ -4749,7 +4749,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Dash",
     "Job": "Squire",
-    "JP": null
+    "JP": 75
   },
   {
     "Type": "physica",
@@ -4782,7 +4782,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Throw Stone",
     "Job": "Squire",
-    "JP": null
+    "JP": 90
   },
   {
     "Type": "neutral",
@@ -4815,7 +4815,7 @@
     "SpecialConsiderationType": 0,
     "Name": "Heal",
     "Job": "Squire",
-    "JP": null
+    "JP": 150
   },
   {
     "Type": "neutral",
@@ -4847,8 +4847,8 @@
     "LineOfSight": false,
     "SpecialConsiderationType": 3,
     "Name": "Yell",
-    "Job": "Squire*",
-    "JP": null
+    "Job": "Squire",
+    "JP": 200
   },
   {
     "Type": "neutral",
@@ -4880,8 +4880,8 @@
     "LineOfSight": false,
     "SpecialConsiderationType": 3,
     "Name": "Cheer Up",
-    "Job": "Squire*",
-    "JP": null
+    "Job": "Squire",
+    "JP": 200
   },
   {
     "Type": "neutral",
@@ -4913,8 +4913,8 @@
     "LineOfSight": false,
     "SpecialConsiderationType": 3,
     "Name": "Wish",
-    "Job": "Squire*",
-    "JP": null
+    "Job": "Squire",
+    "JP": 0
   },
   {
     "Type": "neutral",
@@ -4946,8 +4946,8 @@
     "LineOfSight": false,
     "SpecialConsiderationType": 3,
     "Name": "Scream",
-    "Job": "Squire*",
-    "JP": null
+    "Job": "Squire",
+    "JP": 500
   },
   {
     "Type": "magical",
@@ -4979,7 +4979,7 @@
     "LineOfSight": false,
     "SpecialConsiderationType": 3,
     "Name": "Ultima",
-    "Job": "Squire*",
+    "Job": "Squire",
     "JP": null
   },
   {

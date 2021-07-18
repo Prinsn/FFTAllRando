@@ -200,7 +200,10 @@ namespace FFT_Skill_Parser.Classes
             var jp = "JP:";
             start = row.IndexOf(jp) + jp.Length;
             end = row.IndexOf(" |", start) - 2;
-            int.TryParse(row[start..end], out var JP);
+            if (int.TryParse(row[start..end], out var _JP))
+            {
+                JP = _JP;
+            }
 
             var elem = "ELEM:";
             start = row.IndexOf(elem) + elem.Length;
@@ -289,7 +292,7 @@ namespace FFT_Skill_Parser.Classes
                 "ELEMENTAL" => "Geomancer",
                 "BATTLE SKILL" => "Knight",
                 "BASIC SKILL" => "Squire",
-                "GUTS" => "Squire*",
+                "GUTS" => "Squire",
                 _ => throw new NotImplementedException("Parse error")
             };
 
