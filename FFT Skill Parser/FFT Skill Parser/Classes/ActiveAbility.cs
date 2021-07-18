@@ -10,7 +10,8 @@ namespace FFT_Skill_Parser.Classes
         Item = 0,
         Charge = 1,
         Jump = 2,
-        Guts = 3
+        Guts = 3,
+        MathMagic = 4
     }
 
     class ActiveAbility : Ability
@@ -53,7 +54,8 @@ namespace FFT_Skill_Parser.Classes
         public bool Effect_Linear { get; set; }
         public bool LineOfSight { get; set; }
         //public int BMG_Number { get; set; }
-        public SpecialJobOptions SpecialConsiderationType { get; set; }
+        private SpecialJobOptions? _SpecialConsiderationType { get; set; }
+        public string SpecialConsiderationType => _SpecialConsiderationType?.ToString();
 
         public static ActiveAbility MakeItem(string chemistData)
         {
@@ -62,7 +64,7 @@ namespace FFT_Skill_Parser.Classes
                 LineOfSight = true,
                 Range_Horizontal = 4,
                 Effect_Horizontal = 1,
-                SpecialConsiderationType = SpecialJobOptions.Guts,
+                _SpecialConsiderationType = SpecialJobOptions.Guts,
             };
         }
 
@@ -102,7 +104,7 @@ namespace FFT_Skill_Parser.Classes
                 Type = "neutral",
                 CounterFlood = true,
                 CounterGrasp = true,
-                SpecialConsiderationType = SpecialJobOptions.Charge,
+                _SpecialConsiderationType = SpecialJobOptions.Charge,
                 ChargeTicks = number switch
                 {
                     1 => 4,
@@ -127,6 +129,38 @@ namespace FFT_Skill_Parser.Classes
                     20 => 1000,
                     _ => throw new NotImplementedException("Invalid value")
                 }
+            };
+        }
+
+        public static IEnumerable<ActiveAbility> GetMathSkills()
+        {
+            return new[]
+            {
+                ("CT", 100),
+                ("Level", 350),
+                ("Height", 200),
+                ("Exp", 200),
+                ("Prime Number", 200),
+                ("5", 200),
+                ("4", 400),
+                ("3", 600),
+            }.Select(z => MakeMathSkill(z.Item1, z.Item2));
+        }
+
+        private static ActiveAbility MakeMathSkill(string name, int jp)
+        {
+            return new ActiveAbility
+            {
+                Range_Auto = true,
+                Job = "Calculator",
+                _SpecialConsiderationType = SpecialJobOptions.MathMagic,
+                Name = name,
+                JP = jp,
+                Type = "Magical",
+                ChargeTicks = 0,
+                /* unknowns
+                Reflect = true
+                */
             };
         }
 
@@ -297,7 +331,7 @@ namespace FFT_Skill_Parser.Classes
             };
 
             if (skillGroup.ToUpper() == "GUTS")
-                SpecialConsiderationType = SpecialJobOptions.Guts; 
+                _SpecialConsiderationType = SpecialJobOptions.Guts; 
         }
     }
 }

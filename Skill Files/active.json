@@ -27,7 +27,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Cure",
     "Job": "Priest",
     "JP": 50
@@ -60,7 +60,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Cure 2",
     "Job": "Priest",
     "JP": 180
@@ -93,7 +93,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Cure 3",
     "Job": "Priest",
     "JP": 400
@@ -126,7 +126,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Cure 4",
     "Job": "Priest",
     "JP": 700
@@ -159,7 +159,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Raise",
     "Job": "Priest",
     "JP": 180
@@ -192,7 +192,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Raise 2",
     "Job": "Priest",
     "JP": 500
@@ -225,7 +225,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Reraise",
     "Job": "Priest",
     "JP": 800
@@ -258,7 +258,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Regen",
     "Job": "Priest",
     "JP": 300
@@ -291,7 +291,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Protect",
     "Job": "Priest",
     "JP": 70
@@ -324,7 +324,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Protect 2",
     "Job": "Priest",
     "JP": 500
@@ -357,7 +357,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Shell",
     "Job": "Priest",
     "JP": 70
@@ -390,7 +390,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Shell 2",
     "Job": "Priest",
     "JP": 500
@@ -423,7 +423,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Wall",
     "Job": "Priest",
     "JP": 380
@@ -456,7 +456,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Esuna",
     "Job": "Priest",
     "JP": 280
@@ -489,7 +489,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Holy",
     "Job": "Priest",
     "JP": 600
@@ -522,7 +522,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Fire",
     "Job": "Wizard",
     "JP": 50
@@ -555,7 +555,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Fire 2",
     "Job": "Wizard",
     "JP": 200
@@ -588,7 +588,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Fire 3",
     "Job": "Wizard",
     "JP": 480
@@ -621,7 +621,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Fire 4",
     "Job": "Wizard",
     "JP": 850
@@ -654,7 +654,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Bolt",
     "Job": "Wizard",
     "JP": 50
@@ -687,7 +687,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Bolt 2",
     "Job": "Wizard",
     "JP": 200
@@ -720,7 +720,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Bolt 3",
     "Job": "Wizard",
     "JP": 480
@@ -753,7 +753,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Bolt 4",
     "Job": "Wizard",
     "JP": 850
@@ -786,7 +786,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Ice",
     "Job": "Wizard",
     "JP": 50
@@ -819,7 +819,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Ice 2",
     "Job": "Wizard",
     "JP": 200
@@ -852,7 +852,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Ice 3",
     "Job": "Wizard",
     "JP": 480
@@ -885,7 +885,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Ice 4",
     "Job": "Wizard",
     "JP": 850
@@ -918,7 +918,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Poison",
     "Job": "Wizard",
     "JP": 150
@@ -951,7 +951,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Frog",
     "Job": "Wizard",
     "JP": 500
@@ -984,7 +984,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Death",
     "Job": "Wizard",
     "JP": 600
@@ -1017,7 +1017,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Flare",
     "Job": "Wizard",
     "JP": 900
@@ -1050,7 +1050,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Haste",
     "Job": "Time Mage",
     "JP": 100
@@ -1083,7 +1083,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Haste 2",
     "Job": "Time Mage",
     "JP": 550
@@ -1116,7 +1116,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Slow",
     "Job": "Time Mage",
     "JP": 80
@@ -1149,7 +1149,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Slow 2",
     "Job": "Time Mage",
     "JP": 520
@@ -1182,7 +1182,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Stop",
     "Job": "Time Mage",
     "JP": 330
@@ -1215,7 +1215,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Don't Move",
     "Job": "Time Mage",
     "JP": 100
@@ -1248,7 +1248,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Float",
     "Job": "Time Mage",
     "JP": 200
@@ -1281,7 +1281,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Reflect",
     "Job": "Time Mage",
     "JP": 330
@@ -1314,7 +1314,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Quick",
     "Job": "Time Mage",
     "JP": 800
@@ -1347,7 +1347,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Demi",
     "Job": "Time Mage",
     "JP": 250
@@ -1380,7 +1380,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Demi 2",
     "Job": "Time Mage",
     "JP": 550
@@ -1413,7 +1413,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Meteor",
     "Job": "Time Mage",
     "JP": 1500
@@ -1446,7 +1446,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Blind",
     "Job": "Oracle",
     "JP": 100
@@ -1479,7 +1479,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Spell Absorb",
     "Job": "Oracle",
     "JP": 200
@@ -1512,7 +1512,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Life Drain",
     "Job": "Oracle",
     "JP": 350
@@ -1545,7 +1545,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Pray Faith",
     "Job": "Oracle",
     "JP": 400
@@ -1578,7 +1578,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Doubt Faith",
     "Job": "Oracle",
     "JP": 400
@@ -1611,7 +1611,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Zombie",
     "Job": "Oracle",
     "JP": 300
@@ -1644,7 +1644,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Silence Song",
     "Job": "Oracle",
     "JP": 170
@@ -1677,7 +1677,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Blind Rage",
     "Job": "Oracle",
     "JP": 400
@@ -1710,7 +1710,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Foxbird",
     "Job": "Oracle",
     "JP": 200
@@ -1743,7 +1743,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Confusion Song",
     "Job": "Oracle",
     "JP": 400
@@ -1776,7 +1776,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Dispel Magic",
     "Job": "Oracle",
     "JP": 700
@@ -1809,7 +1809,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Paralyze",
     "Job": "Oracle",
     "JP": 100
@@ -1842,7 +1842,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Sleep",
     "Job": "Oracle",
     "JP": 350
@@ -1875,7 +1875,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Petrify",
     "Job": "Oracle",
     "JP": 580
@@ -1908,7 +1908,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Moogle",
     "Job": "Summoner",
     "JP": 110
@@ -1941,7 +1941,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Shiva",
     "Job": "Summoner",
     "JP": 200
@@ -1974,7 +1974,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Ramuh",
     "Job": "Summoner",
     "JP": 200
@@ -2007,7 +2007,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Ifrit",
     "Job": "Summoner",
     "JP": 200
@@ -2040,7 +2040,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Titan",
     "Job": "Summoner",
     "JP": 220
@@ -2073,7 +2073,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Golem",
     "Job": "Summoner",
     "JP": 500
@@ -2106,7 +2106,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Carbunkle",
     "Job": "Summoner",
     "JP": 350
@@ -2139,7 +2139,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Bahamut",
     "Job": "Summoner",
     "JP": 1200
@@ -2172,7 +2172,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Odin",
     "Job": "Summoner",
     "JP": 900
@@ -2205,7 +2205,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Leviathan",
     "Job": "Summoner",
     "JP": 850
@@ -2238,7 +2238,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Salamander",
     "Job": "Summoner",
     "JP": 820
@@ -2271,7 +2271,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Silf",
     "Job": "Summoner",
     "JP": 400
@@ -2304,7 +2304,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Fairy",
     "Job": "Summoner",
     "JP": 400
@@ -2337,7 +2337,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Lich",
     "Job": "Summoner",
     "JP": 600
@@ -2370,7 +2370,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Cyclops",
     "Job": "Summoner",
     "JP": 1000
@@ -2403,7 +2403,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Zodiac",
     "Job": "Summoner",
     "JP": null
@@ -2436,7 +2436,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Asura",
     "Job": "Samurai",
     "JP": 100
@@ -2469,7 +2469,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Koutetsu",
     "Job": "Samurai",
     "JP": 180
@@ -2502,7 +2502,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Bizen Boat",
     "Job": "Samurai",
     "JP": 260
@@ -2535,7 +2535,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Murasame",
     "Job": "Samurai",
     "JP": 340
@@ -2568,7 +2568,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Heaven's Cloud",
     "Job": "Samurai",
     "JP": 420
@@ -2601,7 +2601,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Kiyomori",
     "Job": "Samurai",
     "JP": 500
@@ -2634,7 +2634,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Muramasa",
     "Job": "Samurai",
     "JP": 580
@@ -2667,7 +2667,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": true,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Kikuichimoji",
     "Job": "Samurai",
     "JP": 660
@@ -2700,7 +2700,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Masamune",
     "Job": "Samurai",
     "JP": 740
@@ -2733,7 +2733,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Chirijiraden",
     "Job": "Samurai",
     "JP": 820
@@ -2766,7 +2766,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Angel Song",
     "Job": "Bard",
     "JP": 100
@@ -2799,7 +2799,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Life Song",
     "Job": "Bard",
     "JP": 100
@@ -2832,7 +2832,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Cheer Song",
     "Job": "Bard",
     "JP": 100
@@ -2865,7 +2865,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Battle Song",
     "Job": "Bard",
     "JP": 100
@@ -2898,7 +2898,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Magic Song",
     "Job": "Bard",
     "JP": 100
@@ -2931,7 +2931,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Nameless Song",
     "Job": "Bard",
     "JP": 100
@@ -2964,7 +2964,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Last Song",
     "Job": "Bard",
     "JP": 100
@@ -2997,7 +2997,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Witch Hunt",
     "Job": "Dancer",
     "JP": 100
@@ -3030,7 +3030,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Wiznaibus",
     "Job": "Dancer",
     "JP": 100
@@ -3063,7 +3063,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Slow Dance",
     "Job": "Dancer",
     "JP": 100
@@ -3096,7 +3096,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Polka Polka",
     "Job": "Dancer",
     "JP": 100
@@ -3129,7 +3129,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Disillusion",
     "Job": "Dancer",
     "JP": 100
@@ -3162,7 +3162,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Nameless Dance",
     "Job": "Dancer",
     "JP": 100
@@ -3195,7 +3195,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Last Dance",
     "Job": "Dancer",
     "JP": 100
@@ -3228,7 +3228,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Spin Fist",
     "Job": "Monk",
     "JP": 150
@@ -3261,7 +3261,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Repeating Fist",
     "Job": "Monk",
     "JP": 300
@@ -3294,7 +3294,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Wave Fist",
     "Job": "Monk",
     "JP": 300
@@ -3327,7 +3327,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Earth Slash",
     "Job": "Monk",
     "JP": 600
@@ -3360,7 +3360,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Secret Fist",
     "Job": "Monk",
     "JP": 300
@@ -3393,7 +3393,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Stigma Magic",
     "Job": "Monk",
     "JP": 200
@@ -3426,7 +3426,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Chakra",
     "Job": "Monk",
     "JP": 350
@@ -3459,7 +3459,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Revive",
     "Job": "Monk",
     "JP": 500
@@ -3492,7 +3492,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Gil Taking",
     "Job": "Thief",
     "JP": 10
@@ -3525,7 +3525,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Steal Heart",
     "Job": "Thief",
     "JP": 150
@@ -3558,7 +3558,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Steal Helmet",
     "Job": "Thief",
     "JP": 350
@@ -3591,7 +3591,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Steal Armor",
     "Job": "Thief",
     "JP": 450
@@ -3624,7 +3624,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Steal Shield",
     "Job": "Thief",
     "JP": 350
@@ -3657,7 +3657,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Steal Weapon",
     "Job": "Thief",
     "JP": 600
@@ -3690,7 +3690,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Steal Accessry",
     "Job": "Thief",
     "JP": 500
@@ -3723,7 +3723,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Steal Exp.",
     "Job": "Thief",
     "JP": 250
@@ -3756,7 +3756,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Invitation",
     "Job": "Mediator",
     "JP": 100
@@ -3789,7 +3789,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Persuade",
     "Job": "Mediator",
     "JP": 100
@@ -3822,7 +3822,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Praise",
     "Job": "Mediator",
     "JP": 200
@@ -3855,7 +3855,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Threaten",
     "Job": "Mediator",
     "JP": 200
@@ -3888,7 +3888,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Preach",
     "Job": "Mediator",
     "JP": 200
@@ -3921,7 +3921,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Solution",
     "Job": "Mediator",
     "JP": 200
@@ -3954,7 +3954,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Death Sentence",
     "Job": "Mediator",
     "JP": 500
@@ -3987,7 +3987,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Negotiate",
     "Job": "Mediator",
     "JP": 100
@@ -4020,7 +4020,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Insult",
     "Job": "Mediator",
     "JP": 300
@@ -4053,7 +4053,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Mimic Daravon",
     "Job": "Mediator",
     "JP": 300
@@ -4086,7 +4086,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Pitfall",
     "Job": "Geomancer",
     "JP": 150
@@ -4119,7 +4119,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Water Ball",
     "Job": "Geomancer",
     "JP": 150
@@ -4152,7 +4152,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Hell Ivy",
     "Job": "Geomancer",
     "JP": 150
@@ -4185,7 +4185,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Carve Model",
     "Job": "Geomancer",
     "JP": 150
@@ -4218,7 +4218,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Local Quake",
     "Job": "Geomancer",
     "JP": 150
@@ -4251,7 +4251,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Kamaitachi",
     "Job": "Geomancer",
     "JP": 150
@@ -4284,7 +4284,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Demon Fire",
     "Job": "Geomancer",
     "JP": 150
@@ -4317,7 +4317,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Quicksand",
     "Job": "Geomancer",
     "JP": 150
@@ -4350,7 +4350,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Blizzard",
     "Job": "Geomancer",
     "JP": 150
@@ -4383,7 +4383,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Gusty Wind",
     "Job": "Geomancer",
     "JP": 150
@@ -4416,7 +4416,7 @@
     "Effect_CasterImmune": true,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Lava Ball",
     "Job": "Geomancer",
     "JP": 150
@@ -4449,7 +4449,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Head Break",
     "Job": "Knight",
     "JP": 300
@@ -4482,7 +4482,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Armor Break",
     "Job": "Knight",
     "JP": 400
@@ -4515,7 +4515,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Shield Break",
     "Job": "Knight",
     "JP": 300
@@ -4548,7 +4548,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Weapon Break",
     "Job": "Knight",
     "JP": 400
@@ -4581,7 +4581,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Magic Break",
     "Job": "Knight",
     "JP": 250
@@ -4614,7 +4614,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Speed Break",
     "Job": "Knight",
     "JP": 250
@@ -4647,7 +4647,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Power Break",
     "Job": "Knight",
     "JP": 250
@@ -4680,7 +4680,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Mind Break",
     "Job": "Knight",
     "JP": 250
@@ -4713,7 +4713,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Accumulate",
     "Job": "Squire",
     "JP": 300
@@ -4746,7 +4746,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Dash",
     "Job": "Squire",
     "JP": 75
@@ -4779,7 +4779,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Throw Stone",
     "Job": "Squire",
     "JP": 90
@@ -4812,7 +4812,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Heal",
     "Job": "Squire",
     "JP": 150
@@ -4845,7 +4845,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Yell",
     "Job": "Squire",
     "JP": 200
@@ -4878,7 +4878,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Cheer Up",
     "Job": "Squire",
     "JP": 200
@@ -4911,7 +4911,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Wish",
     "Job": "Squire",
     "JP": 0
@@ -4944,7 +4944,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Scream",
     "Job": "Squire",
     "JP": 500
@@ -4977,7 +4977,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Ultima",
     "Job": "Squire",
     "JP": null
@@ -5010,7 +5010,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Potion",
     "Job": "Chemist",
     "JP": 30
@@ -5043,7 +5043,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Hi-Potion",
     "Job": "Chemist",
     "JP": 200
@@ -5076,7 +5076,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "X-Potion",
     "Job": "Chemist",
     "JP": 300
@@ -5109,7 +5109,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Ether",
     "Job": "Chemist",
     "JP": 300
@@ -5142,7 +5142,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Hi-Ether",
     "Job": "Chemist",
     "JP": 400
@@ -5175,7 +5175,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Elixir",
     "Job": "Chemist",
     "JP": 900
@@ -5208,7 +5208,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Antidote",
     "Job": "Chemist",
     "JP": 70
@@ -5241,7 +5241,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Eye Drop",
     "Job": "Chemist",
     "JP": 80
@@ -5274,7 +5274,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Echo Grass",
     "Job": "Chemist",
     "JP": 120
@@ -5307,7 +5307,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Maiden's Kiss",
     "Job": "Chemist",
     "JP": 200
@@ -5340,7 +5340,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Soft",
     "Job": "Chemist",
     "JP": 250
@@ -5373,7 +5373,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Holy Water",
     "Job": "Chemist",
     "JP": 400
@@ -5406,7 +5406,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Remedy",
     "Job": "Chemist",
     "JP": 700
@@ -5439,7 +5439,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": true,
-    "SpecialConsiderationType": 3,
+    "SpecialConsiderationType": "Guts",
     "Name": "Phoenix Down",
     "Job": "Chemist",
     "JP": 90
@@ -5472,7 +5472,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Level Jump2",
     "Job": "Lancer",
     "JP": 150
@@ -5505,7 +5505,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Level Jump3",
     "Job": "Lancer",
     "JP": 300
@@ -5538,7 +5538,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Level Jump4",
     "Job": "Lancer",
     "JP": 450
@@ -5571,7 +5571,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Level Jump5",
     "Job": "Lancer",
     "JP": 600
@@ -5604,7 +5604,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Level Jump8",
     "Job": "Lancer",
     "JP": 900
@@ -5637,7 +5637,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Vertical Jump2",
     "Job": "Lancer",
     "JP": 100
@@ -5670,7 +5670,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Vertical Jump3",
     "Job": "Lancer",
     "JP": 200
@@ -5703,7 +5703,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Vertical Jump4",
     "Job": "Lancer",
     "JP": 300
@@ -5736,7 +5736,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Vertical Jump5",
     "Job": "Lancer",
     "JP": 400
@@ -5769,7 +5769,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Vertical Jump6",
     "Job": "Lancer",
     "JP": 500
@@ -5802,7 +5802,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Vertical Jump7",
     "Job": "Lancer",
     "JP": 600
@@ -5835,7 +5835,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 0,
+    "SpecialConsiderationType": null,
     "Name": "Vertical Jump8",
     "Job": "Lancer",
     "JP": 900
@@ -5868,7 +5868,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 1,
+    "SpecialConsiderationType": "Charge",
     "Name": "Charge +1",
     "Job": "Archer",
     "JP": 100
@@ -5901,7 +5901,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 1,
+    "SpecialConsiderationType": "Charge",
     "Name": "Charge +2",
     "Job": "Archer",
     "JP": 150
@@ -5934,7 +5934,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 1,
+    "SpecialConsiderationType": "Charge",
     "Name": "Charge +3",
     "Job": "Archer",
     "JP": 200
@@ -5967,7 +5967,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 1,
+    "SpecialConsiderationType": "Charge",
     "Name": "Charge +4",
     "Job": "Archer",
     "JP": 250
@@ -6000,7 +6000,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 1,
+    "SpecialConsiderationType": "Charge",
     "Name": "Charge +5",
     "Job": "Archer",
     "JP": 300
@@ -6033,7 +6033,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 1,
+    "SpecialConsiderationType": "Charge",
     "Name": "Charge +7",
     "Job": "Archer",
     "JP": 400
@@ -6066,7 +6066,7 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 1,
+    "SpecialConsiderationType": "Charge",
     "Name": "Charge +10",
     "Job": "Archer",
     "JP": 600
@@ -6099,9 +6099,273 @@
     "Effect_CasterImmune": false,
     "Effect_Linear": false,
     "LineOfSight": false,
-    "SpecialConsiderationType": 1,
+    "SpecialConsiderationType": "Charge",
     "Name": "Charge +20",
     "Job": "Archer",
     "JP": 1000
+  },
+  {
+    "Type": "Magical",
+    "CounterGrasp": false,
+    "MP": 0,
+    "Reflect": false,
+    "CounterMagic": false,
+    "ChargeTicks": 0,
+    "MathMagic": false,
+    "CounterFlood": false,
+    "Element": null,
+    "Evadable": false,
+    "DamageCalc_MOD": null,
+    "Range_Auto": true,
+    "Range_4Directions": false,
+    "Range_Linear": false,
+    "Range_Horizontal": null,
+    "Range_Vertical": null,
+    "Range_Weapon": false,
+    "Range_CasterImmune": false,
+    "Effect_Horizontal": 0,
+    "Effect_Veritcal": null,
+    "Effect_AllAllies": false,
+    "Effect_AllEnemies": false,
+    "EffecT_EnemyOnly": false,
+    "Effect_AllyOnly": false,
+    "Effect_CasterImmune": false,
+    "Effect_Linear": false,
+    "LineOfSight": false,
+    "SpecialConsiderationType": "MathMagic",
+    "Name": "CT",
+    "Job": "Calculator",
+    "JP": 100
+  },
+  {
+    "Type": "Magical",
+    "CounterGrasp": false,
+    "MP": 0,
+    "Reflect": false,
+    "CounterMagic": false,
+    "ChargeTicks": 0,
+    "MathMagic": false,
+    "CounterFlood": false,
+    "Element": null,
+    "Evadable": false,
+    "DamageCalc_MOD": null,
+    "Range_Auto": true,
+    "Range_4Directions": false,
+    "Range_Linear": false,
+    "Range_Horizontal": null,
+    "Range_Vertical": null,
+    "Range_Weapon": false,
+    "Range_CasterImmune": false,
+    "Effect_Horizontal": 0,
+    "Effect_Veritcal": null,
+    "Effect_AllAllies": false,
+    "Effect_AllEnemies": false,
+    "EffecT_EnemyOnly": false,
+    "Effect_AllyOnly": false,
+    "Effect_CasterImmune": false,
+    "Effect_Linear": false,
+    "LineOfSight": false,
+    "SpecialConsiderationType": "MathMagic",
+    "Name": "Level",
+    "Job": "Calculator",
+    "JP": 350
+  },
+  {
+    "Type": "Magical",
+    "CounterGrasp": false,
+    "MP": 0,
+    "Reflect": false,
+    "CounterMagic": false,
+    "ChargeTicks": 0,
+    "MathMagic": false,
+    "CounterFlood": false,
+    "Element": null,
+    "Evadable": false,
+    "DamageCalc_MOD": null,
+    "Range_Auto": true,
+    "Range_4Directions": false,
+    "Range_Linear": false,
+    "Range_Horizontal": null,
+    "Range_Vertical": null,
+    "Range_Weapon": false,
+    "Range_CasterImmune": false,
+    "Effect_Horizontal": 0,
+    "Effect_Veritcal": null,
+    "Effect_AllAllies": false,
+    "Effect_AllEnemies": false,
+    "EffecT_EnemyOnly": false,
+    "Effect_AllyOnly": false,
+    "Effect_CasterImmune": false,
+    "Effect_Linear": false,
+    "LineOfSight": false,
+    "SpecialConsiderationType": "MathMagic",
+    "Name": "Height",
+    "Job": "Calculator",
+    "JP": 200
+  },
+  {
+    "Type": "Magical",
+    "CounterGrasp": false,
+    "MP": 0,
+    "Reflect": false,
+    "CounterMagic": false,
+    "ChargeTicks": 0,
+    "MathMagic": false,
+    "CounterFlood": false,
+    "Element": null,
+    "Evadable": false,
+    "DamageCalc_MOD": null,
+    "Range_Auto": true,
+    "Range_4Directions": false,
+    "Range_Linear": false,
+    "Range_Horizontal": null,
+    "Range_Vertical": null,
+    "Range_Weapon": false,
+    "Range_CasterImmune": false,
+    "Effect_Horizontal": 0,
+    "Effect_Veritcal": null,
+    "Effect_AllAllies": false,
+    "Effect_AllEnemies": false,
+    "EffecT_EnemyOnly": false,
+    "Effect_AllyOnly": false,
+    "Effect_CasterImmune": false,
+    "Effect_Linear": false,
+    "LineOfSight": false,
+    "SpecialConsiderationType": "MathMagic",
+    "Name": "Exp",
+    "Job": "Calculator",
+    "JP": 200
+  },
+  {
+    "Type": "Magical",
+    "CounterGrasp": false,
+    "MP": 0,
+    "Reflect": false,
+    "CounterMagic": false,
+    "ChargeTicks": 0,
+    "MathMagic": false,
+    "CounterFlood": false,
+    "Element": null,
+    "Evadable": false,
+    "DamageCalc_MOD": null,
+    "Range_Auto": true,
+    "Range_4Directions": false,
+    "Range_Linear": false,
+    "Range_Horizontal": null,
+    "Range_Vertical": null,
+    "Range_Weapon": false,
+    "Range_CasterImmune": false,
+    "Effect_Horizontal": 0,
+    "Effect_Veritcal": null,
+    "Effect_AllAllies": false,
+    "Effect_AllEnemies": false,
+    "EffecT_EnemyOnly": false,
+    "Effect_AllyOnly": false,
+    "Effect_CasterImmune": false,
+    "Effect_Linear": false,
+    "LineOfSight": false,
+    "SpecialConsiderationType": "MathMagic",
+    "Name": "Prime Number",
+    "Job": "Calculator",
+    "JP": 200
+  },
+  {
+    "Type": "Magical",
+    "CounterGrasp": false,
+    "MP": 0,
+    "Reflect": false,
+    "CounterMagic": false,
+    "ChargeTicks": 0,
+    "MathMagic": false,
+    "CounterFlood": false,
+    "Element": null,
+    "Evadable": false,
+    "DamageCalc_MOD": null,
+    "Range_Auto": true,
+    "Range_4Directions": false,
+    "Range_Linear": false,
+    "Range_Horizontal": null,
+    "Range_Vertical": null,
+    "Range_Weapon": false,
+    "Range_CasterImmune": false,
+    "Effect_Horizontal": 0,
+    "Effect_Veritcal": null,
+    "Effect_AllAllies": false,
+    "Effect_AllEnemies": false,
+    "EffecT_EnemyOnly": false,
+    "Effect_AllyOnly": false,
+    "Effect_CasterImmune": false,
+    "Effect_Linear": false,
+    "LineOfSight": false,
+    "SpecialConsiderationType": "MathMagic",
+    "Name": "5",
+    "Job": "Calculator",
+    "JP": 200
+  },
+  {
+    "Type": "Magical",
+    "CounterGrasp": false,
+    "MP": 0,
+    "Reflect": false,
+    "CounterMagic": false,
+    "ChargeTicks": 0,
+    "MathMagic": false,
+    "CounterFlood": false,
+    "Element": null,
+    "Evadable": false,
+    "DamageCalc_MOD": null,
+    "Range_Auto": true,
+    "Range_4Directions": false,
+    "Range_Linear": false,
+    "Range_Horizontal": null,
+    "Range_Vertical": null,
+    "Range_Weapon": false,
+    "Range_CasterImmune": false,
+    "Effect_Horizontal": 0,
+    "Effect_Veritcal": null,
+    "Effect_AllAllies": false,
+    "Effect_AllEnemies": false,
+    "EffecT_EnemyOnly": false,
+    "Effect_AllyOnly": false,
+    "Effect_CasterImmune": false,
+    "Effect_Linear": false,
+    "LineOfSight": false,
+    "SpecialConsiderationType": "MathMagic",
+    "Name": "4",
+    "Job": "Calculator",
+    "JP": 400
+  },
+  {
+    "Type": "Magical",
+    "CounterGrasp": false,
+    "MP": 0,
+    "Reflect": false,
+    "CounterMagic": false,
+    "ChargeTicks": 0,
+    "MathMagic": false,
+    "CounterFlood": false,
+    "Element": null,
+    "Evadable": false,
+    "DamageCalc_MOD": null,
+    "Range_Auto": true,
+    "Range_4Directions": false,
+    "Range_Linear": false,
+    "Range_Horizontal": null,
+    "Range_Vertical": null,
+    "Range_Weapon": false,
+    "Range_CasterImmune": false,
+    "Effect_Horizontal": 0,
+    "Effect_Veritcal": null,
+    "Effect_AllAllies": false,
+    "Effect_AllEnemies": false,
+    "EffecT_EnemyOnly": false,
+    "Effect_AllyOnly": false,
+    "Effect_CasterImmune": false,
+    "Effect_Linear": false,
+    "LineOfSight": false,
+    "SpecialConsiderationType": "MathMagic",
+    "Name": "3",
+    "Job": "Calculator",
+    "JP": 600
   }
 ]
