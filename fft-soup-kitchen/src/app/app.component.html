@@ -1,12 +1,50 @@
 <h1>Final Fantasy Tactics Soup Kitchen and/or Store</h1>
+<!--TODO: make checkbox input?-->
 <label>
-  Ability Count
-  <input [(ngModel)]="abilitiesToPull"/>
+  Use Global Maximum
+  <input type="checkbox" [(ngModel)]="useGlobal"/>
 </label>
 <br />
-<button (click)="gen()">Generate</button>
-<br />
+<label>
+  Use Maximum Types
+  <input type="checkbox" [(ngModel)]="useType"/>
+</label>
+<ng-container *ngIf="useGlobal && useType">
+  <br />
+  <label>
+    Satisfy Maximum Type and then fill up to Total ("Use Minimum Types")
+    <input type="checkbox" [(ngModel)]="useBothCheckbox"/>
+  </label>
+</ng-container>
+<ng-container *ngIf="useGlobal">
+  <br />
+  <label>
+    Maximum Total Skills
+    <input 
+      type="number" 
+      [(ngModel)]="abilitiesToPull" 
+      max="{{totalSkills}}" 
+      min="0"
+      />
+  </label>
+</ng-container>
+<ng-container *ngFor="let type of useType ? types : []">
+  <br />
+  <label>
+    {{maxOrMinType}} {{type}} Skill    
+    <input 
+      type="number" 
+      [ngModel]="abilityTypesToPull.get(type)" 
+      (ngModelChange)="updateMapValue(type, $event)"
+      max="{{this.data.abilityDict.get(type).length}}" 
+      min="0"
+      />
+  </label>
+</ng-container>
+<ng-container *ngIf="useType || useGlobal">
+  <br />
+  <button (click)="gen()">Generate</button>
+</ng-container>
 <ul>
   <li *ngFor="let i of randomSkills">{{AbilityToString(i)}}</li>
 </ul>
-<br />

@@ -13,6 +13,11 @@ export interface SupportAbility extends Ability {
 }
 
 export function AbilityToString(ability: Ability) {
+    var type = AbilityToType(ability);
+    return `${ability.Name} (${ability.Job}, ${type})`;
+}
+
+export function AbilityToType(ability: Ability){
     var reactionType = (ability as SupportAbility).ReactionType;
     if(reactionType){
         var type = reactionType;
@@ -20,11 +25,10 @@ export function AbilityToString(ability: Ability) {
             type = "reaction";
         }
 
-        type = type.charAt(0).toUpperCase() + type.slice(1);        
-        return `${ability.Name} (${ability.Job}, ${type})`;
+        return type.charAt(0).toUpperCase() + type.slice(1);                
     }
     
-    return `${ability.Name} (${ability.Job}, Active)`;
+    return "Active";
 }
 
 export interface ActiveAbility extends Ability {

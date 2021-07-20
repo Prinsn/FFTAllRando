@@ -1,16 +1,20 @@
 import { Injectable } from "@angular/core";
-import { ActiveAbility, SupportAbility } from "../classes/abilities";
+import { Ability, AbilityToType, ActiveAbility, SupportAbility } from "../classes/abilities";
 //These are "Modules" at run time, data is in .default
 import * as activeJson from "../../../Skill Files/active.json";
 import * as passiveJson from "../../../Skill Files/passive.json";
 
  @Injectable({providedIn: 'root'})
  export class SkillDataService {
-    actives: ActiveAbility[];
-    passives: SupportAbility[];
-    private _actives: ActiveAbility[];
-    private _passives: SupportAbility[];
+    private _abilities: Map<string, Ability[]> = new Map<string, Ability[]>();
+    get types(){
+        return this._abilities.keys();
+    }
 
+    get abilityDict(){
+        return this._abilities;
+    }
+    
     get debugActiveJson(){
         return activeJson;
     }
@@ -23,10 +27,18 @@ import * as passiveJson from "../../../Skill Files/passive.json";
     }
 
     public init() {
-        this.actives = [];
-        this.passives = []; 
+        let actives = (activeJson as any).default as ActiveAbility[];         
+        let passives = (passiveJson as any).default as SupportAbility[];    
 
-        this.actives = (activeJson as any).default as ActiveAbility[];         
-        this.passives = (passiveJson as any).default as SupportAbility[];    
+        for(let ability of [...actives, ...passives])
+        {
+            var type = AbilityToType(ability);
+            if(!this._abilities.get(type)){
+                this._abilities.set(type, []);
+            }
+            
+            this._abilities.get(type)
+                .push(ability);
+        }
     }
  }
