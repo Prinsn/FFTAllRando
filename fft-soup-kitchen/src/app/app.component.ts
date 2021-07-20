@@ -1,4 +1,3 @@
-import { trigger } from '@angular/animations';
 import { Component } from '@angular/core';
 import { SkillDataService } from 'src/services/skill-data.service';
 import { Ability, AbilityToString, AbilityToType } from "../classes/abilities";
@@ -6,32 +5,35 @@ import { Ability, AbilityToString, AbilityToType } from "../classes/abilities";
 //TODO move all this into components/classes as appropriate
 
 class RandoData {
-  total: number;
+  totalCapacityRemaining: number;
   totalType: Map<string, number>;
   constructor(t: number, tt: Map<string, number>){
-    this.total = t;
+    this.totalCapacityRemaining = t;
     if(tt){
       this.totalType = new Map(tt);
     }
   }  
 
-  addTotalGetRemaining(){  
-    return --this.total;
+  totalTypeRemaining(type: string){
+    return this.totalType.get(type) > 0;
   }
 
-  addTypeGetRemaining(type: string){
+  updateData(type: string){
     let val = this.totalType.get(type) - 1;    
     this.totalType.set(type, val);  
-    return val;
+    this.totalCapacityRemaining--;
   }
 
   private _allTypesSatisfied: boolean = false;
-  allTypesSatisfied(){
-    if(!this._allTypesSatisfied){
-      for(var type in this.totalType.keys()){
-        if(this.totalType.get(type) > 0)
+  get allTypesSatisfied(){
+    if(!this._allTypesSatisfied){    
+      for(var type of this.totalType.keys()){
+        var typeRemaining = this.totalType.get(type);
+        if(typeRemaining > 0)
           return false;
       }
+
+      return true;
     }
 
     this._allTypesSatisfied = true;
@@ -53,13 +55,6 @@ export class AppComponent {
   useType: boolean;
   useGlobal: boolean;
   useBothCheckbox: boolean;
-
-  get maxOrMinType(){
-    return this.useSkillMins
-      ? "Minimum"
-      : "Maximum";
-  }
-
   types: string[] = [];
 
   constructor(public data: SkillDataService){
@@ -70,8 +65,8 @@ export class AppComponent {
     }
   }
 
-  private get useSkillMins(){
-    return this.useType && this.useGlobal && this.useBothCheckbox;
+  public get useSkillMins(){
+    return !!(this.useType && this.useGlobal);
   }
 
   get totalSkills(){
@@ -93,32 +88,41 @@ export class AppComponent {
     // https://stackoverflow.com/a/38571132
     // Shuffle array
     const shuffled = sourceData
+      //new deck logic?
       .sort(() => 0.5 - Math.random())
-      //TODO filter by types
+      .sort(() => 0.5 - Math.random())
+      .sort(() => 0.5 - Math.random())
+      .sort(() => 0.5 - Math.random())
+      //TODO filters
       ;
       
     var data = new RandoData(this.abilitiesToPull,  this.abilityTypesToPull)
     while(shuffled.length){
-      var skill = shuffled.pop();      
-      
-      var skillTypeRemaining = this.useType ?
-        data.addTypeGetRemaining(AbilityToType(skill))
-        : 1;
+      var skill = shuffled.pop(); 
+      var type = AbilityToType(skill);                 
+      var totalOk = data.totalCapacityRemaining;
+      var typeOk = data.totalTypeRemaining(type);      
 
-      var skillTotalRemaining = this.useGlobal ?
-       data.addTotalGetRemaining()
-       : 1;         
+      if(!typeOk && !totalOk && !data.allTypesSatisfied) {
+        return;
+      }
 
-
-      if(skillTotalRemaining > -1 
-        && (skillTypeRemaining > -1 
-          || (this.useSkillMins && data.allTypesSatisfied)
-        )
-      ) {
+      if(this.useSkillMins) {
+        if(!totalOk) return;        
+        if(typeOk || data.allTypesSatisfied){
+          data.updateData(type);
+          this.randomSkills.push(skill);
+        }
+      }
+      else {
+        if(this.useType && !typeOk) continue;
+        if(this.useGlobal && !totalOk) return;        
+        
+        data.updateData(type);
         this.randomSkills.push(skill);
       }
     }
-  }
+  }  
 
   AbilityToString(ability: Ability){
     return AbilityToString(ability);
@@ -131,5 +135,9 @@ export class AppComponent {
   //For some reason this doesn't directly in ngModelChange
   updateMapValue(type: string, $event: number){
     this.abilityTypesToPull.set(type, $event);
+  }
+
+  getSkillTypeCount(type: string){
+    return this.randomSkills.filter(z => AbilityToType(z) == type).length;
   }
 }

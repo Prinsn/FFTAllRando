@@ -1,25 +1,22 @@
 <h1>Final Fantasy Tactics Soup Kitchen and/or Store</h1>
 <!--TODO: make checkbox input?-->
 <label>
-  Use Global Maximum
+  Generate by Total
   <input type="checkbox" [(ngModel)]="useGlobal"/>
 </label>
 <br />
 <label>
-  Use Maximum Types
+  Generate by Type
   <input type="checkbox" [(ngModel)]="useType"/>
 </label>
-<ng-container *ngIf="useGlobal && useType">
-  <br />
-  <label>
-    Satisfy Maximum Type and then fill up to Total ("Use Minimum Types")
-    <input type="checkbox" [(ngModel)]="useBothCheckbox"/>
-  </label>
+<ng-container *ngIf="useSkillMins">
+  <br /> * Type Limits are respected as minimums up to the Total Limit
 </ng-container>
+<br />
 <ng-container *ngIf="useGlobal">
   <br />
   <label>
-    Maximum Total Skills
+    Total Limit
     <input 
       type="number" 
       [(ngModel)]="abilitiesToPull" 
@@ -31,7 +28,7 @@
 <ng-container *ngFor="let type of useType ? types : []">
   <br />
   <label>
-    {{maxOrMinType}} {{type}} Skill    
+    {{type}} Limit
     <input 
       type="number" 
       [ngModel]="abilityTypesToPull.get(type)" 
@@ -46,5 +43,11 @@
   <button (click)="gen()">Generate</button>
 </ng-container>
 <ul>
-  <li *ngFor="let i of randomSkills">{{AbilityToString(i)}}</li>
+  <li *ngFor="let i of randomSkills">{{AbilityToString(i)}}</li>  
+</ul>
+<br />  
+<ul *ngIf="randomSkills && randomSkills.length">
+  <li *ngFor="let type of types">
+    {{type}} count : {{getSkillTypeCount(type)}}
+  </li>
 </ul>
