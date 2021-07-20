@@ -74,6 +74,7 @@ namespace FFT_Skill_Parser
                     continue;
 
                 var type = typeSorter.First(z => z.Item1 < purePassives.IndexOf(passive)).Item2;
+                //TODO:  One skill is both Bard and Dancer (Fly), need to split that out maybe, yes no?
                 passives.Add(new SupportAbility(passive, type));
             }
 
