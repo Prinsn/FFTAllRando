@@ -17,6 +17,7 @@ namespace FFT_Skill_Parser.Classes
 
     class SupportAbility : Ability
     {
+        //Should retype this to support type
         public string ReactionType { get; set; }
         public SupportAbility(string row, SupportType type) : base(row, false)
         {
