@@ -31,6 +31,7 @@ namespace FFT_Skill_Parser
             actives.AddRange(ActiveAbility.GetJumps());
             actives.AddRange(ActiveAbility.GetCharges());
             actives.AddRange(ActiveAbility.GetMathSkills());
+            actives.AddRange(ActiveAbility.GetThrows());
 
 
             File.WriteAllText(path + "\\active.json", JsonSerializer.Serialize(actives, new JsonSerializerOptions

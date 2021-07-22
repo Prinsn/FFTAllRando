@@ -43,12 +43,13 @@ namespace FFT_Skill_Parser.Classes
         public int? Range_Horizontal { get; set; }
         public int? Range_Vertical { get; set; }
         public bool Range_Weapon { get; set; }
+        public bool Range_Move { get; set; }
         public bool Range_CasterImmune { get; set; }
         public int Effect_Horizontal { get; set; }
         public int? Effect_Veritcal { get; set; }
         public bool Effect_AllAllies { get; set; }
         public bool Effect_AllEnemies { get; set; }
-        public bool EffecT_EnemyOnly { get; set; }
+        public bool Effect_EnemyOnly { get; set; }
         public bool Effect_AllyOnly { get; set; }
         public bool Effect_CasterImmune { get; set; }
         public bool Effect_Linear { get; set; }
@@ -182,6 +183,44 @@ namespace FFT_Skill_Parser.Classes
             };
         }
 
+        public static IEnumerable<ActiveAbility> GetThrows()
+        {
+            return new[]
+            {
+                MakeThrow("Shuriken", 50),
+                MakeThrow("Ball", 70),
+                MakeThrow("Knife", 100),
+                MakeThrow("Sword", 100),
+                MakeThrow("Hammer", 100),
+                MakeThrow("Katana", 100),
+                MakeThrow("Ninja Sword", 100),
+                MakeThrow("Axe", 120),
+                MakeThrow("Spear", 100),
+                MakeThrow("Stick", 100),
+                MakeThrow("Knight Sword", 100),
+                MakeThrow("Dictionary", 100),
+            };
+        }
+
+        private static ActiveAbility MakeThrow(string name, int jp)
+        {
+            return new ActiveAbility
+            {
+                Job = "Ninja",
+                Name = name,
+                JP = jp,
+                LineOfSight = true,
+                Range_Move = true,
+                Effect_Horizontal = 1,
+                ChargeTicks = 0,
+                Type = "physical",
+                Evadable = true,
+                CounterFlood = true,
+                CounterGrasp = true,
+                Element = "*",
+            };
+        }
+        
         private ActiveAbility() { }
         private ActiveAbility(string standardRow, object? emptyConstructorArg) : base (standardRow, true) { }
 
@@ -279,7 +318,7 @@ namespace FFT_Skill_Parser.Classes
             Effect_AllAllies = effectString.Contains("All a");
             Effect_AllEnemies = effectString.Contains("All e");
             Effect_AllyOnly = effectString.Contains("all");
-            EffecT_EnemyOnly = effectString.Contains("en");
+            Effect_EnemyOnly = effectString.Contains("en");
             Effect_CasterImmune = effectString.Contains("CI");
             Effect_Linear = effectString.Contains("linear");
             if (!(Effect_AllAllies || Effect_AllEnemies))

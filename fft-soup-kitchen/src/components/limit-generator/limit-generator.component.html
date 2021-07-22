@@ -1,0 +1,51 @@
+<label>
+    Generate by Total
+    <input type="checkbox" [(ngModel)]="useGlobal"/>
+  </label>
+  <br />
+  <label>
+    Generate by Type
+    <input type="checkbox" [(ngModel)]="useType"/>
+  </label>
+  <ng-container *ngIf="useSkillMins">
+    <br /> * Type Limits are respected as minimums up to the Total Limit
+  </ng-container>
+  <br />
+  <ng-container *ngIf="useGlobal">
+    <br />
+    <label>
+      Total Limit
+      <input 
+        type="number" 
+        [(ngModel)]="abilitiesToPull" 
+        max="{{totalSkills}}" 
+        min="0"
+        />
+    </label>
+  </ng-container>
+  <ng-container *ngFor="let type of useType ? types : []">
+    <br />
+    <label>
+      {{type}} Limit
+      <input 
+        type="number" 
+        [ngModel]="abilityTypesToPull.get(type)" 
+        (ngModelChange)="updateMapValue(type, $event)"
+        max="{{data.abilitiesByType.get(type).length}}" 
+        min="0"
+        />
+    </label>
+  </ng-container>
+  <ng-container *ngIf="useType || useGlobal">
+    <br />
+    <button (click)="gen()">Generate</button>
+  </ng-container>
+  <ul>
+    <li *ngFor="let i of randomSkills">{{AbilityToString(i)}}</li>  
+  </ul>
+  <br />  
+  <ul *ngIf="randomSkills && randomSkills.length">
+    <li *ngFor="let type of types">
+      {{type}} count : {{getSkillTypeCount(type)}}
+    </li>
+  </ul>

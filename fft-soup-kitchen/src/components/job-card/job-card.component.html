@@ -1,0 +1,19 @@
+<h2 (click)="showHide()">[{{expansionSymbol}}] {{name}}</h2>
+<div *ngIf="show" style="display: flex;">
+    <!--Horizontal flex these?-->
+    <ng-container *ngFor="let section of sections">
+        <div syle="display: block;">
+            <div>{{section}}</div>  
+            <div *ngFor="let ability of getSectionedAbilities(section)">
+                <label>
+                    <input 
+                        type="checkbox" 
+                        [ngModel]="filter.abilityFilter.get(ability)" 
+                        (ngModelChange)="filter.abilityFilter.set(ability, $event)"/>
+                    {{ability.Name}} 
+                </label>
+            </div>
+        </div>
+        <div display="width: 20%;"></div>
+    </ng-container>
+</div>
