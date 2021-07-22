@@ -1,4 +1,10 @@
-<h2 (click)="showHide()">[{{expansionSymbol}}] {{name}}</h2>
+<h2>    
+    <div (click)="showHide()" style="display: contents;">[{{expansionSymbol}}] {{name}}</div>    
+    <input 
+        type="checkbox" 
+        [ngModel]="filter.jobFilter.get(name)" 
+        (ngModelChange)="filter.jobFilter.set(name, $event)"/>        
+</h2>
 <div *ngIf="show" style="display: flex;">
     <!--Horizontal flex these?-->
     <ng-container *ngFor="let section of sections">

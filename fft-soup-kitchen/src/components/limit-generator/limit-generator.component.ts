@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { asNativeElements, Component } from '@angular/core';
 import { SkillDataService } from 'src/services/skill-data.service';
+import { SkillFilterService } from 'src/services/skill-filter.service';
 import { Ability, AbilityToString, AbilityToType } from "../../classes/abilities";
 
 //TODO move all this into components/classes as appropriate
@@ -57,7 +58,7 @@ export class LimitGeneratorComponent {
   useBothCheckbox: boolean;
   types: string[] = [];
 
-  constructor(public data: SkillDataService){
+  constructor(public data: SkillDataService, public filter: SkillFilterService){
     for(let key of this.data.types){
       //View does not seem to have access to this value?
       this.abilityTypesToPull.set(key, 2);        
@@ -86,25 +87,34 @@ export class LimitGeneratorComponent {
     }
 
     // https://stackoverflow.com/a/38571132
-    // Shuffle array
-    let shuffled = this.shuffle(sourceData
-      //TODO apply filters
-      );
+    // Shuffle array    
+    let shuffled = this.filter.filterShuffle(sourceData);
       
     var data = new RandoData(this.abilitiesToPull,  this.abilityTypesToPull)
     
-    while(shuffled.length){
-      var skill = shuffled.pop(); 
+    var infiniteParanoia = 0;
+    var priorCount = -1;
+    while(priorCount != this.randomSkills.length && infiniteParanoia++ < 100){
+      priorCount == this.randomSkills.length;      
+      if(this.runGenLoop(shuffled, data))
+        break;
+
+      shuffled = shuffled.filter(z => !this.randomSkills.find(a => a == z));      
+    }
+  }  
+
+  private runGenLoop(shuffled: Ability[], data: RandoData){
+    for(var skill of shuffled){           
       var type = AbilityToType(skill);                 
       var totalOk = data.totalCapacityRemaining;
       var typeOk = data.totalTypeRemaining(type);      
 
       if(!typeOk && !totalOk && !data.allTypesSatisfied) {
-        return;
+        return true;
       }
 
       if(this.useSkillMins) {
-        if(!totalOk) return;        
+        if(!totalOk) return true;        
         if(typeOk || data.allTypesSatisfied){
           data.updateData(type);
           this.randomSkills.push(skill);
@@ -112,13 +122,15 @@ export class LimitGeneratorComponent {
       }
       else {
         if(this.useType && !typeOk) continue;
-        if(this.useGlobal && !totalOk) return;        
+        if(this.useGlobal && !totalOk) return true;        
         
         data.updateData(type);
         this.randomSkills.push(skill);
       }
     }
-  }  
+
+    return false;
+  }
 
   AbilityToString(ability: Ability){
     return AbilityToString(ability);
@@ -135,24 +147,5 @@ export class LimitGeneratorComponent {
 
   getSkillTypeCount(type: string){
     return this.randomSkills.filter(z => AbilityToType(z) == type).length;
-  }
-
-  shuffle(array) {
-    var currentIndex = array.length,  randomIndex;
-  
-    // While there remain elements to shuffle...
-    while (0 !== currentIndex) {
-  
-      // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-  
-      // And swap it with the current element.
-      [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex], array[currentIndex]];
-    }
-  
-    return array;
-  }
-  
+  }  
 }
