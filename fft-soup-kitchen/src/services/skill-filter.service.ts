@@ -1,4 +1,3 @@
-import { areAllEquivalent } from "@angular/compiler/src/output/output_ast";
 import { Injectable } from "@angular/core";
 import { Ability } from "src/classes/abilities";
 import { SkillDataService } from "./skill-data.service";
@@ -34,7 +33,7 @@ export class SkillFilterService {
         return this.shuffle(sourceData);
     }
 
-    shuffle(array: any[]) {
+    shuffle<T>(array: T[]) {
         var currentIndex = array.length, randomIndex: number;
       
         // While there remain elements to shuffle...

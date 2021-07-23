@@ -1,46 +1,8 @@
-import { asNativeElements, Component } from '@angular/core';
+import { Component } from '@angular/core';
+import { RandoData } from 'src/classes/randoData';
 import { SkillDataService } from 'src/services/skill-data.service';
 import { SkillFilterService } from 'src/services/skill-filter.service';
 import { Ability, AbilityToString, AbilityToType } from "../../classes/abilities";
-
-//TODO move all this into components/classes as appropriate
-
-class RandoData {
-  totalCapacityRemaining: number;
-  totalType: Map<string, number>;
-  constructor(t: number, tt: Map<string, number>){
-    this.totalCapacityRemaining = t;
-    if(tt){
-      this.totalType = new Map(tt);
-    }
-  }  
-
-  totalTypeRemaining(type: string){
-    return this.totalType.get(type) > 0;
-  }
-
-  updateData(type: string){
-    let val = this.totalType.get(type) - 1;    
-    this.totalType.set(type, val);  
-    this.totalCapacityRemaining--;
-  }
-
-  private _allTypesSatisfied: boolean = false;
-  get allTypesSatisfied(){
-    if(!this._allTypesSatisfied){    
-      for(var type of this.totalType.keys()){
-        var typeRemaining = this.totalType.get(type);
-        if(typeRemaining > 0)
-          return false;
-      }
-
-      return true;
-    }
-
-    this._allTypesSatisfied = true;
-    return true;
-  }
-}
 
 @Component({
   selector: 'limit-generator',
@@ -78,7 +40,18 @@ export class LimitGeneratorComponent {
     return count;
   } 
 
-  gen(){
+  busy = false;
+  gen() {
+    if(this.busy) return;
+    console.log(this.busy);
+    this.busy = true;
+    console.debug("start");
+    this._gen();
+    console.debug("end");
+    this.busy = false;
+  }
+
+  private _gen(){
     var sourceData: Ability[] = [];
     this.randomSkills = [];
 
@@ -94,39 +67,58 @@ export class LimitGeneratorComponent {
     
     var infiniteParanoia = 0;
     var priorCount = -1;
-    while(priorCount != this.randomSkills.length && infiniteParanoia++ < 100){
-      priorCount == this.randomSkills.length;      
-      if(this.runGenLoop(shuffled, data))
+    while(true){ 
+      console.log(priorCount + " ," + this.randomSkills.length);
+      if(priorCount == this.randomSkills.length)
+      {
+        break;
+      }
+      if(infiniteParanoia++ > 10){      
+        break;
+      }
+      
+      if(this.runGenLoop(shuffled, data)) 
         break;
 
-      shuffled = shuffled.filter(z => !this.randomSkills.find(a => a == z));      
+      priorCount = this.randomSkills.length;    
+
+      shuffled = shuffled.filter(z => 
+        !this.randomSkills.find(a => a.Name == z.Name)
+      );      
     }
   }  
 
   private runGenLoop(shuffled: Ability[], data: RandoData){
     for(var skill of shuffled){           
       var type = AbilityToType(skill);                 
-      var totalOk = data.totalCapacityRemaining;
-      var typeOk = data.totalTypeRemaining(type);      
+      var totalOk = data.totalCapacityRemaining > 0;
+      var typeOk = data.totalTypeRemaining(type) > 0;      
+      var allTypesOk = data.allTypesSatisfied
 
-      if(!typeOk && !totalOk && !data.allTypesSatisfied) {
+      if(!typeOk && !totalOk && allTypesOk) {      
         return true;
       }
 
       if(this.useSkillMins) {
-        if(!totalOk) return true;        
-        if(typeOk || data.allTypesSatisfied){
-          data.updateData(type);
-          this.randomSkills.push(skill);
+        if(!totalOk) {          
+          return true;        
         }
+        if(!typeOk && !allTypesOk){
+          continue;
+        }
+      } else if(this.useType) {
+          if(allTypesOk) {
+            return;
+          }
+          else if(!typeOk) {
+            continue;
+          }
+      } else if(this.useGlobal && !totalOk) {
+        return true;        
       }
-      else {
-        if(this.useType && !typeOk) continue;
-        if(this.useGlobal && !totalOk) return true;        
-        
-        data.updateData(type);
-        this.randomSkills.push(skill);
-      }
+
+      data.updateData(type);
+      this.randomSkills.push(skill);    
     }
 
     return false;
