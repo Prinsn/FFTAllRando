@@ -1,10 +1,11 @@
-import { Injectable } from "@angular/core";
+import { EventEmitter, Injectable } from "@angular/core";
+import { Observable } from "rxjs";
 import { Ability } from "src/classes/abilities";
 import { SkillDataService } from "./skill-data.service";
 
 @Injectable({providedIn: 'root'})
 export class SkillFilterService {
-    
+    filterChanged = new EventEmitter<void>();
     jobFilter: Map<string, boolean>;
     abilityFilter: Map<Ability, boolean>;
     
@@ -24,12 +25,13 @@ export class SkillFilterService {
         }
     }
 
+    filterAbility(ability: Ability){
+        return this.jobFilter.get(ability.Job) 
+        && this.abilityFilter.get(ability);
+    }
+
     filterShuffle(sourceData: Ability[]) {
-        sourceData = sourceData.filter(a => 
-            this.jobFilter.get(a.Job) 
-            && this.abilityFilter.get(a)
-        );
-        
+        sourceData = sourceData.filter(this.filterAbility);    
         return this.shuffle(sourceData);
     }
 

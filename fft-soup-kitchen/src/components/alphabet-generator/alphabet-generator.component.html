@@ -1,0 +1,19 @@
+<label>
+    Soup Letter:
+    <select [(ngModel)]="letter">
+        <option *ngFor="let l of letters" [ngValue]="l">
+            {{l}}
+        </option>
+    </select>
+</label>
+<label>
+    Soup Position:
+    <select [(ngModel)]="position">
+        <option *ngFor="let p of positions" [ngValue]="p">
+            {{p}}
+        </option>
+    </select>
+</label>
+<ul>
+    <li *ngFor="let i of alphabetSoup">{{AbilityToString(i)}}</li>  
+</ul>

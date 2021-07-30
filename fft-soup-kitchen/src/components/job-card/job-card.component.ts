@@ -47,4 +47,14 @@ export class JobCardComponent implements OnChanges{
     showHide(){
         this.show = !this.show;
     }
+
+    updateAbilityFilter(ability: Ability, $event: boolean){
+        this.filter.abilityFilter.set(ability, $event);
+        this.filter.filterChanged.next();
+    }
+
+    updateJobFilter(job: string, $event: boolean){
+        this.filter.jobFilter.set(job, $event);
+        this.filter.filterChanged.next();
+    }
 }

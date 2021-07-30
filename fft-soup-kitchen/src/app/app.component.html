@@ -1,6 +1,9 @@
 <h1>Final Fantasy Tactics Soup Kitchen and/or Store</h1>
+<button [disabled]="isRandom" (click)="setRandom()">Random</button>
+<button [disabled]="isSoup" (click)="setSoup();">Alphabet Soup</button>
 <div class="flex-cols">
-  <limit-generator></limit-generator>
+  <limit-generator *ngIf="isRandom"></limit-generator>
+  <soup-generator *ngIf="isSoup"></soup-generator>
   <div class="flex-spacer"></div>
   <jobs-container></jobs-container>
 </div>

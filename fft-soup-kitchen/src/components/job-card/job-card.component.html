@@ -3,7 +3,7 @@
     <input 
         type="checkbox" 
         [ngModel]="filter.jobFilter.get(name)" 
-        (ngModelChange)="filter.jobFilter.set(name, $event)"/>        
+        (ngModelChange)="updateJobFilter(name, $event)"/>        
 </h2>
 <div *ngIf="show" style="display: flex;">
     <!--Horizontal flex these?-->
@@ -15,7 +15,7 @@
                     <input 
                         type="checkbox" 
                         [ngModel]="filter.abilityFilter.get(ability)" 
-                        (ngModelChange)="filter.abilityFilter.set(ability, $event)"/>
+                        (ngModelChange)="updateAbilityFilter(ability, $event)"/>
                     {{ability.Name}} 
                 </label>
             </div>

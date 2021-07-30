@@ -18,7 +18,7 @@ export class LimitGeneratorComponent {
   useType: boolean;
   useGlobal: boolean;
   useBothCheckbox: boolean;
-  types: string[] = [];
+  types: string[] = [];  
 
   constructor(public data: SkillDataService, public filter: SkillFilterService){
     for(let key of this.data.types){
