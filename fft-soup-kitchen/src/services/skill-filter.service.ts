@@ -31,7 +31,7 @@ export class SkillFilterService {
     }
 
     filterShuffle(sourceData: Ability[]) {
-        sourceData = sourceData.filter(this.filterAbility);    
+        sourceData = sourceData.filter(a => this.filterAbility(a));    
         return this.shuffle(sourceData);
     }
 
